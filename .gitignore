@@ -1,0 +1,8 @@
+*.pdf
+*.zip
+*.env
+.env
+/skillhousePaperwork/*
+/ml4t/*
+/ML4T_copy/*
+/mozillaBookmarks/*

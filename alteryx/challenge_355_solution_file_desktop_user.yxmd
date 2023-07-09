@@ -1,0 +1,3721 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="822" width="204" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="42" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="138" width="720" height="660" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Do you often find that you have to clean data to get it in a readable and usable format?
+ 
+In this weekly challenge, you need to clean data and organize it into a format that is more suitable for analysis. 
+
+The dataset contains information about the Olympic Games:
+1.	Participating Country
+2.	Country Code
+3.	Total Summer Games
+4.	Total Gold Medals Summer
+5.	Total Silver Medals Summer
+6.	Total Bronze Medals Summer
+7.	Total Medals Combined Summer
+8.	Total Winter Games
+9.	Total Gold Medals Winter
+10.	Total Silver Medals Winter
+11.	Total Bronze Medals Winter
+12.	Total Medals Combined Winter
+13.	Total Combined Games
+14.	Total Gold Medals Combined Games
+15.	Total Silver Medals Combined Games
+16.	Total Bronze Medals Combined Games
+17.	Total All Medals Combined Games
+
+However, the data is all compiled in one field.
+
+Your goal is to:
+- Parse the data in columns.
+- Clean out the special characters for the Country Code (for example, update “(AFG)” to “AFG”).
+- Name the new columns (as shown above).
+
+
+Data Source: www.kaggle.com/datasets/rushikeshlavate/olympic-games-medal-datasetfrom-1896-to-2018
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="12" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="54" width="252" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Weekly Challenge #355</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="2" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="822" width="192" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Output ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="690" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_11964_f5856ca2532e4524a8b25e133ec0aa40_\Engine_17568_6f9bc5894b234819a761f5d1466cf3f0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="174" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MARIE~1.COU\AppData\Local\Temp\Engine_11964_f5856ca2532e4524a8b25e133ec0aa40_\Engine_17568_2f79507022d74ec7b5003289024fb9d1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="606" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="147" />
+          <Fields>
+            <Field name="Participating Country" />
+            <Field name="Country Code" />
+            <Field name="Total Summer Games" />
+            <Field name="Total Gold Medals Summer" />
+            <Field name="Total Silver Medals Summer" />
+            <Field name="Total Bronze Medals Summer" />
+            <Field name="Total Medals Combined Summer" />
+            <Field name="Total Winter Games" />
+            <Field name="Total Gold Medals Winter" />
+            <Field name="Total Silver Medals Winter" />
+            <Field name="Total Bronze Medals Winter" />
+            <Field name="Total Medals Combined Winter" />
+            <Field name="Total Combined Games" />
+            <Field name="Total Gold Medals Combined Games" />
+            <Field name="Total Silver Medals Combined Games" />
+            <Field name="Total Bronze Medals Combined Games" />
+            <Field name="Total All Medals Combined Games" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[Afghanistan ]]></c>
+              <c>AFG</c>
+              <c>13</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Algeria ]]></c>
+              <c>ALG</c>
+              <c>12</c>
+              <c>5</c>
+              <c>2</c>
+              <c>8</c>
+              <c>15</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>5</c>
+              <c>2</c>
+              <c>8</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c><![CDATA[Argentina ]]></c>
+              <c>ARG</c>
+              <c>23</c>
+              <c>18</c>
+              <c>24</c>
+              <c>28</c>
+              <c>70</c>
+              <c>18</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>41</c>
+              <c>18</c>
+              <c>24</c>
+              <c>28</c>
+              <c>70</c>
+            </r>
+            <r>
+              <c><![CDATA[Armenia ]]></c>
+              <c>ARM</c>
+              <c>5</c>
+              <c>1</c>
+              <c>2</c>
+              <c>9</c>
+              <c>12</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>1</c>
+              <c>2</c>
+              <c>9</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c><![CDATA[Australasia ]]></c>
+              <c>ANZ</c>
+              <c>2</c>
+              <c>3</c>
+              <c>4</c>
+              <c>5</c>
+              <c>12</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>3</c>
+              <c>4</c>
+              <c>5</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c><![CDATA[Australia ]]></c>
+              <c>AUS</c>
+              <c>25</c>
+              <c>139</c>
+              <c>152</c>
+              <c>177</c>
+              <c>468</c>
+              <c>18</c>
+              <c>5</c>
+              <c>3</c>
+              <c>4</c>
+              <c>12</c>
+              <c>43</c>
+              <c>144</c>
+              <c>155</c>
+              <c>181</c>
+              <c>480</c>
+            </r>
+            <r>
+              <c><![CDATA[Austria ]]></c>
+              <c>AUT</c>
+              <c>26</c>
+              <c>18</c>
+              <c>33</c>
+              <c>35</c>
+              <c>86</c>
+              <c>22</c>
+              <c>59</c>
+              <c>78</c>
+              <c>81</c>
+              <c>218</c>
+              <c>48</c>
+              <c>77</c>
+              <c>111</c>
+              <c>116</c>
+              <c>304</c>
+            </r>
+            <r>
+              <c><![CDATA[Azerbaijan ]]></c>
+              <c>AZE</c>
+              <c>5</c>
+              <c>6</c>
+              <c>5</c>
+              <c>15</c>
+              <c>26</c>
+              <c>5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10</c>
+              <c>6</c>
+              <c>5</c>
+              <c>15</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c><![CDATA[Bahamas ]]></c>
+              <c>BAH</c>
+              <c>15</c>
+              <c>5</c>
+              <c>2</c>
+              <c>5</c>
+              <c>12</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>5</c>
+              <c>2</c>
+              <c>5</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c><![CDATA[Bahrain ]]></c>
+              <c>BRN</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Barbados ]]></c>
+              <c>BAR</c>
+              <c>11</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Belarus ]]></c>
+              <c>BLR</c>
+              <c>5</c>
+              <c>12</c>
+              <c>24</c>
+              <c>39</c>
+              <c>75</c>
+              <c>6</c>
+              <c>6</c>
+              <c>4</c>
+              <c>5</c>
+              <c>15</c>
+              <c>11</c>
+              <c>18</c>
+              <c>28</c>
+              <c>44</c>
+              <c>90</c>
+            </r>
+            <r>
+              <c><![CDATA[Belgium ]]></c>
+              <c>BEL</c>
+              <c>25</c>
+              <c>37</c>
+              <c>52</c>
+              <c>53</c>
+              <c>142</c>
+              <c>20</c>
+              <c>1</c>
+              <c>1</c>
+              <c>3</c>
+              <c>5</c>
+              <c>45</c>
+              <c>38</c>
+              <c>53</c>
+              <c>56</c>
+              <c>147</c>
+            </r>
+            <r>
+              <c><![CDATA[Bermuda ]]></c>
+              <c>BER</c>
+              <c>17</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Bohemia ]]></c>
+              <c>BOH</c>
+              <c>3</c>
+              <c>0</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3</c>
+              <c>0</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Botswana ]]></c>
+              <c>BOT</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Brazil ]]></c>
+              <c>BRA</c>
+              <c>21</c>
+              <c>23</c>
+              <c>30</c>
+              <c>55</c>
+              <c>108</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>28</c>
+              <c>23</c>
+              <c>30</c>
+              <c>55</c>
+              <c>108</c>
+            </r>
+            <r>
+              <c><![CDATA[British West Indies ]]></c>
+              <c>BWI</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Bulgaria ]]></c>
+              <c>BUL</c>
+              <c>19</c>
+              <c>51</c>
+              <c>85</c>
+              <c>78</c>
+              <c>214</c>
+              <c>19</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+              <c>6</c>
+              <c>38</c>
+              <c>52</c>
+              <c>87</c>
+              <c>81</c>
+              <c>220</c>
+            </r>
+            <r>
+              <c><![CDATA[Burundi ]]></c>
+              <c>BDI</c>
+              <c>5</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>5</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Cameroon ]]></c>
+              <c>CMR</c>
+              <c>13</c>
+              <c>3</c>
+              <c>1</c>
+              <c>1</c>
+              <c>5</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>3</c>
+              <c>1</c>
+              <c>1</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c><![CDATA[Canada ]]></c>
+              <c>CAN</c>
+              <c>25</c>
+              <c>59</c>
+              <c>99</c>
+              <c>121</c>
+              <c>279</c>
+              <c>22</c>
+              <c>62</c>
+              <c>56</c>
+              <c>52</c>
+              <c>170</c>
+              <c>47</c>
+              <c>121</c>
+              <c>155</c>
+              <c>173</c>
+              <c>449</c>
+            </r>
+            <r>
+              <c><![CDATA[Chile ]]></c>
+              <c>CHI</c>
+              <c>22</c>
+              <c>2</c>
+              <c>7</c>
+              <c>4</c>
+              <c>13</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>38</c>
+              <c>2</c>
+              <c>7</c>
+              <c>4</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c><![CDATA[China ]]></c>
+              <c>CHN</c>
+              <c>9</c>
+              <c>201</c>
+              <c>146</c>
+              <c>126</c>
+              <c>473</c>
+              <c>10</c>
+              <c>12</c>
+              <c>22</c>
+              <c>19</c>
+              <c>53</c>
+              <c>19</c>
+              <c>213</c>
+              <c>168</c>
+              <c>145</c>
+              <c>526</c>
+            </r>
+            <r>
+              <c><![CDATA[Colombia ]]></c>
+              <c>COL</c>
+              <c>18</c>
+              <c>2</c>
+              <c>6</c>
+              <c>11</c>
+              <c>19</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>2</c>
+              <c>6</c>
+              <c>11</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c><![CDATA[Costa Rica ]]></c>
+              <c>CRC</c>
+              <c>14</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+              <c>4</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>20</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Ivory Coast ]]></c>
+              <c>CIV</c>
+              <c>12</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Croatia ]]></c>
+              <c>CRO</c>
+              <c>6</c>
+              <c>6</c>
+              <c>7</c>
+              <c>10</c>
+              <c>23</c>
+              <c>7</c>
+              <c>4</c>
+              <c>6</c>
+              <c>1</c>
+              <c>11</c>
+              <c>13</c>
+              <c>10</c>
+              <c>13</c>
+              <c>11</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c><![CDATA[Cuba ]]></c>
+              <c>CUB</c>
+              <c>19</c>
+              <c>72</c>
+              <c>67</c>
+              <c>70</c>
+              <c>209</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>72</c>
+              <c>67</c>
+              <c>70</c>
+              <c>209</c>
+            </r>
+            <r>
+              <c><![CDATA[Cyprus ]]></c>
+              <c>CYP</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>10</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Czech Republic ]]></c>
+              <c>CZE</c>
+              <c>5</c>
+              <c>14</c>
+              <c>15</c>
+              <c>15</c>
+              <c>44</c>
+              <c>6</c>
+              <c>7</c>
+              <c>9</c>
+              <c>8</c>
+              <c>24</c>
+              <c>11</c>
+              <c>21</c>
+              <c>24</c>
+              <c>23</c>
+              <c>68</c>
+            </r>
+            <r>
+              <c><![CDATA[Czechoslovakia ]]></c>
+              <c>TCH</c>
+              <c>16</c>
+              <c>49</c>
+              <c>49</c>
+              <c>45</c>
+              <c>143</c>
+              <c>16</c>
+              <c>2</c>
+              <c>8</c>
+              <c>15</c>
+              <c>25</c>
+              <c>32</c>
+              <c>51</c>
+              <c>57</c>
+              <c>60</c>
+              <c>168</c>
+            </r>
+            <r>
+              <c><![CDATA[Denmark ]]></c>
+              <c>DEN</c>
+              <c>26</c>
+              <c>43</c>
+              <c>68</c>
+              <c>68</c>
+              <c>179</c>
+              <c>13</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>39</c>
+              <c>43</c>
+              <c>69</c>
+              <c>68</c>
+              <c>180</c>
+            </r>
+            <r>
+              <c><![CDATA[Djibouti ]]></c>
+              <c>DJI</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Dominican Republic ]]></c>
+              <c>DOM</c>
+              <c>13</c>
+              <c>3</c>
+              <c>2</c>
+              <c>1</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>3</c>
+              <c>2</c>
+              <c>1</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c><![CDATA[Ecuador ]]></c>
+              <c>ECU</c>
+              <c>13</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Egypt ]]></c>
+              <c>EGY</c>
+              <c>21</c>
+              <c>7</c>
+              <c>9</c>
+              <c>10</c>
+              <c>26</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>22</c>
+              <c>7</c>
+              <c>9</c>
+              <c>10</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c><![CDATA[Eritrea ]]></c>
+              <c>ERI</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Estonia ]]></c>
+              <c>EST</c>
+              <c>11</c>
+              <c>9</c>
+              <c>9</c>
+              <c>15</c>
+              <c>33</c>
+              <c>9</c>
+              <c>4</c>
+              <c>2</c>
+              <c>1</c>
+              <c>7</c>
+              <c>20</c>
+              <c>13</c>
+              <c>11</c>
+              <c>16</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c><![CDATA[Ethiopia ]]></c>
+              <c>ETH</c>
+              <c>12</c>
+              <c>21</c>
+              <c>7</c>
+              <c>17</c>
+              <c>45</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>21</c>
+              <c>7</c>
+              <c>17</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c><![CDATA[Finland ]]></c>
+              <c>FIN</c>
+              <c>24</c>
+              <c>101</c>
+              <c>84</c>
+              <c>117</c>
+              <c>302</c>
+              <c>22</c>
+              <c>42</c>
+              <c>62</c>
+              <c>57</c>
+              <c>161</c>
+              <c>46</c>
+              <c>143</c>
+              <c>146</c>
+              <c>174</c>
+              <c>463</c>
+            </r>
+            <r>
+              <c><![CDATA[France ]]></c>
+              <c>FRA</c>
+              <c>27</c>
+              <c>202</c>
+              <c>223</c>
+              <c>246</c>
+              <c>671</c>
+              <c>22</c>
+              <c>31</c>
+              <c>31</c>
+              <c>47</c>
+              <c>109</c>
+              <c>49</c>
+              <c>233</c>
+              <c>254</c>
+              <c>293</c>
+              <c>780</c>
+            </r>
+            <r>
+              <c><![CDATA[Gabon ]]></c>
+              <c>GAB</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Georgia ]]></c>
+              <c>GEO</c>
+              <c>5</c>
+              <c>6</c>
+              <c>5</c>
+              <c>14</c>
+              <c>25</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>6</c>
+              <c>5</c>
+              <c>14</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c><![CDATA[Germany ]]></c>
+              <c>GER</c>
+              <c>15</c>
+              <c>174</c>
+              <c>182</c>
+              <c>217</c>
+              <c>573</c>
+              <c>11</c>
+              <c>78</c>
+              <c>78</c>
+              <c>53</c>
+              <c>209</c>
+              <c>26</c>
+              <c>252</c>
+              <c>260</c>
+              <c>270</c>
+              <c>782</c>
+            </r>
+            <r>
+              <c><![CDATA[United Team of Germany ]]></c>
+              <c>EUA</c>
+              <c>3</c>
+              <c>28</c>
+              <c>54</c>
+              <c>36</c>
+              <c>118</c>
+              <c>3</c>
+              <c>8</c>
+              <c>6</c>
+              <c>5</c>
+              <c>19</c>
+              <c>6</c>
+              <c>36</c>
+              <c>60</c>
+              <c>41</c>
+              <c>137</c>
+            </r>
+            <r>
+              <c><![CDATA[East Germany ]]></c>
+              <c>GDR</c>
+              <c>5</c>
+              <c>153</c>
+              <c>129</c>
+              <c>127</c>
+              <c>409</c>
+              <c>6</c>
+              <c>39</c>
+              <c>36</c>
+              <c>35</c>
+              <c>110</c>
+              <c>11</c>
+              <c>192</c>
+              <c>165</c>
+              <c>162</c>
+              <c>519</c>
+            </r>
+            <r>
+              <c><![CDATA[West Germany ]]></c>
+              <c>FRG</c>
+              <c>5</c>
+              <c>56</c>
+              <c>67</c>
+              <c>81</c>
+              <c>204</c>
+              <c>6</c>
+              <c>11</c>
+              <c>15</c>
+              <c>13</c>
+              <c>39</c>
+              <c>11</c>
+              <c>67</c>
+              <c>82</c>
+              <c>94</c>
+              <c>243</c>
+            </r>
+            <r>
+              <c><![CDATA[Ghana ]]></c>
+              <c>GHA</c>
+              <c>13</c>
+              <c>0</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>0</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Great Britain ]]></c>
+              <c>GBR</c>
+              <c>27</c>
+              <c>236</c>
+              <c>272</c>
+              <c>272</c>
+              <c>780</c>
+              <c>22</c>
+              <c>10</c>
+              <c>4</c>
+              <c>12</c>
+              <c>26</c>
+              <c>49</c>
+              <c>246</c>
+              <c>276</c>
+              <c>284</c>
+              <c>806</c>
+            </r>
+            <r>
+              <c><![CDATA[Greece ]]></c>
+              <c>GRE</c>
+              <c>27</c>
+              <c>30</c>
+              <c>42</c>
+              <c>39</c>
+              <c>111</c>
+              <c>18</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>45</c>
+              <c>30</c>
+              <c>42</c>
+              <c>39</c>
+              <c>111</c>
+            </r>
+            <r>
+              <c><![CDATA[Grenada ]]></c>
+              <c>GRN</c>
+              <c>8</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Guatemala ]]></c>
+              <c>GUA</c>
+              <c>13</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Guyana ]]></c>
+              <c>GUY</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Haiti ]]></c>
+              <c>HAI</c>
+              <c>14</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Hong Kong ]]></c>
+              <c>HKG</c>
+              <c>15</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>3</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Hungary ]]></c>
+              <c>HUN</c>
+              <c>25</c>
+              <c>167</c>
+              <c>144</c>
+              <c>165</c>
+              <c>476</c>
+              <c>22</c>
+              <c>0</c>
+              <c>2</c>
+              <c>4</c>
+              <c>6</c>
+              <c>47</c>
+              <c>167</c>
+              <c>146</c>
+              <c>169</c>
+              <c>482</c>
+            </r>
+            <r>
+              <c><![CDATA[Iceland ]]></c>
+              <c>ISL</c>
+              <c>19</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+              <c>17</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>36</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[India ]]></c>
+              <c>IND</c>
+              <c>23</c>
+              <c>9</c>
+              <c>6</c>
+              <c>11</c>
+              <c>26</c>
+              <c>9</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>32</c>
+              <c>9</c>
+              <c>6</c>
+              <c>11</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c><![CDATA[Indonesia ]]></c>
+              <c>INA</c>
+              <c>14</c>
+              <c>6</c>
+              <c>10</c>
+              <c>11</c>
+              <c>27</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>6</c>
+              <c>10</c>
+              <c>11</c>
+              <c>27</c>
+            </r>
+            <r>
+              <c><![CDATA[Iran ]]></c>
+              <c>IRI</c>
+              <c>15</c>
+              <c>15</c>
+              <c>20</c>
+              <c>25</c>
+              <c>60</c>
+              <c>10</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>25</c>
+              <c>15</c>
+              <c>20</c>
+              <c>25</c>
+              <c>60</c>
+            </r>
+            <r>
+              <c><![CDATA[Iraq ]]></c>
+              <c>IRQ</c>
+              <c>13</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Ireland ]]></c>
+              <c>IRL</c>
+              <c>20</c>
+              <c>9</c>
+              <c>8</c>
+              <c>12</c>
+              <c>29</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>26</c>
+              <c>9</c>
+              <c>8</c>
+              <c>12</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c><![CDATA[Israel ]]></c>
+              <c>ISR</c>
+              <c>15</c>
+              <c>1</c>
+              <c>1</c>
+              <c>5</c>
+              <c>7</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>21</c>
+              <c>1</c>
+              <c>1</c>
+              <c>5</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c><![CDATA[Italy ]]></c>
+              <c>ITA</c>
+              <c>26</c>
+              <c>198</c>
+              <c>166</c>
+              <c>185</c>
+              <c>549</c>
+              <c>22</c>
+              <c>37</c>
+              <c>34</c>
+              <c>43</c>
+              <c>114</c>
+              <c>48</c>
+              <c>235</c>
+              <c>200</c>
+              <c>228</c>
+              <c>663</c>
+            </r>
+            <r>
+              <c><![CDATA[Jamaica ]]></c>
+              <c>JAM</c>
+              <c>16</c>
+              <c>17</c>
+              <c>30</c>
+              <c>20</c>
+              <c>67</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>23</c>
+              <c>17</c>
+              <c>30</c>
+              <c>20</c>
+              <c>67</c>
+            </r>
+            <r>
+              <c><![CDATA[Japan ]]></c>
+              <c>JPN</c>
+              <c>21</c>
+              <c>130</c>
+              <c>126</c>
+              <c>142</c>
+              <c>398</c>
+              <c>20</c>
+              <c>10</c>
+              <c>17</c>
+              <c>18</c>
+              <c>45</c>
+              <c>41</c>
+              <c>140</c>
+              <c>143</c>
+              <c>160</c>
+              <c>443</c>
+            </r>
+            <r>
+              <c><![CDATA[Kazakhstan ]]></c>
+              <c>KAZ</c>
+              <c>5</c>
+              <c>16</c>
+              <c>17</c>
+              <c>19</c>
+              <c>52</c>
+              <c>6</c>
+              <c>1</c>
+              <c>3</c>
+              <c>3</c>
+              <c>7</c>
+              <c>11</c>
+              <c>17</c>
+              <c>20</c>
+              <c>22</c>
+              <c>59</c>
+            </r>
+            <r>
+              <c><![CDATA[Kenya ]]></c>
+              <c>KEN</c>
+              <c>13</c>
+              <c>25</c>
+              <c>32</c>
+              <c>29</c>
+              <c>86</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+              <c>25</c>
+              <c>32</c>
+              <c>29</c>
+              <c>86</c>
+            </r>
+            <r>
+              <c><![CDATA[North Korea ]]></c>
+              <c>PRK</c>
+              <c>9</c>
+              <c>14</c>
+              <c>12</c>
+              <c>21</c>
+              <c>47</c>
+              <c>8</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+              <c>17</c>
+              <c>14</c>
+              <c>13</c>
+              <c>22</c>
+              <c>49</c>
+            </r>
+            <r>
+              <c><![CDATA[South Korea ]]></c>
+              <c>KOR</c>
+              <c>16</c>
+              <c>81</c>
+              <c>82</c>
+              <c>80</c>
+              <c>243</c>
+              <c>17</c>
+              <c>26</c>
+              <c>17</c>
+              <c>10</c>
+              <c>53</c>
+              <c>33</c>
+              <c>107</c>
+              <c>99</c>
+              <c>90</c>
+              <c>296</c>
+            </r>
+            <r>
+              <c><![CDATA[Kuwait ]]></c>
+              <c>KUW</c>
+              <c>12</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Kyrgyzstan ]]></c>
+              <c>KGZ</c>
+              <c>5</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Latvia ]]></c>
+              <c>LAT</c>
+              <c>10</c>
+              <c>3</c>
+              <c>11</c>
+              <c>5</c>
+              <c>19</c>
+              <c>10</c>
+              <c>0</c>
+              <c>4</c>
+              <c>3</c>
+              <c>7</c>
+              <c>20</c>
+              <c>3</c>
+              <c>15</c>
+              <c>8</c>
+              <c>26</c>
+            </r>
+            <r>
+              <c><![CDATA[Lebanon ]]></c>
+              <c>LIB</c>
+              <c>16</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>32</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Liechtenstein ]]></c>
+              <c>LIE</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18</c>
+              <c>2</c>
+              <c>2</c>
+              <c>5</c>
+              <c>9</c>
+              <c>34</c>
+              <c>2</c>
+              <c>2</c>
+              <c>5</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c><![CDATA[Lithuania ]]></c>
+              <c>LTU</c>
+              <c>8</c>
+              <c>6</c>
+              <c>5</c>
+              <c>10</c>
+              <c>21</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+              <c>6</c>
+              <c>5</c>
+              <c>10</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c><![CDATA[Luxembourg ]]></c>
+              <c>LUX</c>
+              <c>22</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>2</c>
+              <c>8</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+              <c>30</c>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Macedonia ]]></c>
+              <c>MKD</c>
+              <c>5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Malaysia ]]></c>
+              <c>MAS</c>
+              <c>12</c>
+              <c>0</c>
+              <c>3</c>
+              <c>3</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>3</c>
+              <c>3</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c><![CDATA[Mauritius ]]></c>
+              <c>MRI</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Mexico ]]></c>
+              <c>MEX</c>
+              <c>22</c>
+              <c>13</c>
+              <c>21</c>
+              <c>28</c>
+              <c>62</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>30</c>
+              <c>13</c>
+              <c>21</c>
+              <c>28</c>
+              <c>62</c>
+            </r>
+            <r>
+              <c><![CDATA[Moldova ]]></c>
+              <c>MDA</c>
+              <c>5</c>
+              <c>0</c>
+              <c>2</c>
+              <c>5</c>
+              <c>7</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>2</c>
+              <c>5</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c><![CDATA[Mongolia ]]></c>
+              <c>MGL</c>
+              <c>12</c>
+              <c>2</c>
+              <c>9</c>
+              <c>13</c>
+              <c>24</c>
+              <c>13</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>25</c>
+              <c>2</c>
+              <c>9</c>
+              <c>13</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c><![CDATA[Montenegro ]]></c>
+              <c>MNE</c>
+              <c>2</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Morocco ]]></c>
+              <c>MAR</c>
+              <c>13</c>
+              <c>6</c>
+              <c>5</c>
+              <c>11</c>
+              <c>22</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>6</c>
+              <c>5</c>
+              <c>11</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c><![CDATA[Mozambique ]]></c>
+              <c>MOZ</c>
+              <c>9</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Namibia ]]></c>
+              <c>NAM</c>
+              <c>6</c>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6</c>
+              <c>0</c>
+              <c>4</c>
+              <c>0</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Netherlands ]]></c>
+              <c>NED</c>
+              <c>25</c>
+              <c>77</c>
+              <c>85</c>
+              <c>104</c>
+              <c>266</c>
+              <c>20</c>
+              <c>37</c>
+              <c>38</c>
+              <c>35</c>
+              <c>110</c>
+              <c>45</c>
+              <c>114</c>
+              <c>123</c>
+              <c>139</c>
+              <c>376</c>
+            </r>
+            <r>
+              <c><![CDATA[Netherlands Antilles ]]></c>
+              <c>AHO</c>
+              <c>13</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[New Zealand ]]></c>
+              <c>NZL</c>
+              <c>22</c>
+              <c>42</c>
+              <c>18</c>
+              <c>39</c>
+              <c>99</c>
+              <c>15</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>37</c>
+              <c>42</c>
+              <c>19</c>
+              <c>39</c>
+              <c>100</c>
+            </r>
+            <r>
+              <c><![CDATA[Niger ]]></c>
+              <c>NIG</c>
+              <c>11</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Nigeria ]]></c>
+              <c>NGR</c>
+              <c>15</c>
+              <c>3</c>
+              <c>8</c>
+              <c>12</c>
+              <c>23</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>3</c>
+              <c>8</c>
+              <c>12</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c><![CDATA[Norway ]]></c>
+              <c>NOR</c>
+              <c>24</c>
+              <c>56</c>
+              <c>49</c>
+              <c>43</c>
+              <c>148</c>
+              <c>22</c>
+              <c>118</c>
+              <c>111</c>
+              <c>100</c>
+              <c>329</c>
+              <c>46</c>
+              <c>174</c>
+              <c>160</c>
+              <c>143</c>
+              <c>477</c>
+            </r>
+            <r>
+              <c><![CDATA[Pakistan ]]></c>
+              <c>PAK</c>
+              <c>16</c>
+              <c>3</c>
+              <c>3</c>
+              <c>4</c>
+              <c>10</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18</c>
+              <c>3</c>
+              <c>3</c>
+              <c>4</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c><![CDATA[Panama ]]></c>
+              <c>PAN</c>
+              <c>16</c>
+              <c>1</c>
+              <c>0</c>
+              <c>2</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+              <c>1</c>
+              <c>0</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Paraguay ]]></c>
+              <c>PAR</c>
+              <c>11</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Peru ]]></c>
+              <c>PER</c>
+              <c>17</c>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>4</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Philippines ]]></c>
+              <c>PHI</c>
+              <c>20</c>
+              <c>0</c>
+              <c>2</c>
+              <c>7</c>
+              <c>9</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24</c>
+              <c>0</c>
+              <c>2</c>
+              <c>7</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c><![CDATA[Poland ]]></c>
+              <c>POL</c>
+              <c>20</c>
+              <c>64</c>
+              <c>82</c>
+              <c>125</c>
+              <c>271</c>
+              <c>22</c>
+              <c>6</c>
+              <c>7</c>
+              <c>7</c>
+              <c>20</c>
+              <c>42</c>
+              <c>70</c>
+              <c>89</c>
+              <c>132</c>
+              <c>291</c>
+            </r>
+            <r>
+              <c><![CDATA[Portugal ]]></c>
+              <c>POR</c>
+              <c>23</c>
+              <c>4</c>
+              <c>8</c>
+              <c>11</c>
+              <c>23</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>30</c>
+              <c>4</c>
+              <c>8</c>
+              <c>11</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c><![CDATA[Puerto Rico ]]></c>
+              <c>PUR</c>
+              <c>17</c>
+              <c>0</c>
+              <c>2</c>
+              <c>6</c>
+              <c>8</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>23</c>
+              <c>0</c>
+              <c>2</c>
+              <c>6</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c><![CDATA[Qatar ]]></c>
+              <c>QAT</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Romania ]]></c>
+              <c>ROU</c>
+              <c>20</c>
+              <c>88</c>
+              <c>94</c>
+              <c>119</c>
+              <c>301</c>
+              <c>20</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>40</c>
+              <c>88</c>
+              <c>94</c>
+              <c>120</c>
+              <c>302</c>
+            </r>
+            <r>
+              <c><![CDATA[Russia ]]></c>
+              <c>RUS</c>
+              <c>5</c>
+              <c>132</c>
+              <c>121</c>
+              <c>142</c>
+              <c>395</c>
+              <c>6</c>
+              <c>49</c>
+              <c>40</c>
+              <c>35</c>
+              <c>124</c>
+              <c>11</c>
+              <c>181</c>
+              <c>161</c>
+              <c>177</c>
+              <c>519</c>
+            </r>
+            <r>
+              <c><![CDATA[Russian Empire ]]></c>
+              <c>RU1</c>
+              <c>3</c>
+              <c>1</c>
+              <c>4</c>
+              <c>3</c>
+              <c>8</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3</c>
+              <c>1</c>
+              <c>4</c>
+              <c>3</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c><![CDATA[Soviet Union ]]></c>
+              <c>URS</c>
+              <c>9</c>
+              <c>395</c>
+              <c>319</c>
+              <c>296</c>
+              <c>1010</c>
+              <c>9</c>
+              <c>78</c>
+              <c>57</c>
+              <c>59</c>
+              <c>194</c>
+              <c>18</c>
+              <c>473</c>
+              <c>376</c>
+              <c>355</c>
+              <c>1204</c>
+            </r>
+            <r>
+              <c><![CDATA[Unified Team ]]></c>
+              <c>EUN</c>
+              <c>1</c>
+              <c>45</c>
+              <c>38</c>
+              <c>29</c>
+              <c>112</c>
+              <c>1</c>
+              <c>9</c>
+              <c>6</c>
+              <c>8</c>
+              <c>23</c>
+              <c>2</c>
+              <c>54</c>
+              <c>44</c>
+              <c>37</c>
+              <c>135</c>
+            </r>
+            <r>
+              <c><![CDATA[Saudi Arabia ]]></c>
+              <c>KSA</c>
+              <c>10</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Senegal ]]></c>
+              <c>SEN</c>
+              <c>13</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>5</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Serbia ]]></c>
+              <c>SRB</c>
+              <c>3</c>
+              <c>1</c>
+              <c>2</c>
+              <c>4</c>
+              <c>7</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>5</c>
+              <c>1</c>
+              <c>2</c>
+              <c>4</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c><![CDATA[Serbia and Montenegro ]]></c>
+              <c>SCG</c>
+              <c>3</c>
+              <c>2</c>
+              <c>4</c>
+              <c>3</c>
+              <c>9</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6</c>
+              <c>2</c>
+              <c>4</c>
+              <c>3</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c><![CDATA[Singapore ]]></c>
+              <c>SIN</c>
+              <c>15</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15</c>
+              <c>0</c>
+              <c>2</c>
+              <c>2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c><![CDATA[Slovakia ]]></c>
+              <c>SVK</c>
+              <c>5</c>
+              <c>7</c>
+              <c>9</c>
+              <c>8</c>
+              <c>24</c>
+              <c>6</c>
+              <c>2</c>
+              <c>2</c>
+              <c>1</c>
+              <c>5</c>
+              <c>11</c>
+              <c>9</c>
+              <c>11</c>
+              <c>9</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c><![CDATA[Slovenia ]]></c>
+              <c>SLO</c>
+              <c>6</c>
+              <c>4</c>
+              <c>6</c>
+              <c>9</c>
+              <c>19</c>
+              <c>7</c>
+              <c>2</c>
+              <c>4</c>
+              <c>9</c>
+              <c>15</c>
+              <c>13</c>
+              <c>6</c>
+              <c>10</c>
+              <c>18</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c><![CDATA[South Africa ]]></c>
+              <c>RSA</c>
+              <c>18</c>
+              <c>23</c>
+              <c>26</c>
+              <c>27</c>
+              <c>76</c>
+              <c>6</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24</c>
+              <c>23</c>
+              <c>26</c>
+              <c>27</c>
+              <c>76</c>
+            </r>
+            <r>
+              <c><![CDATA[Spain ]]></c>
+              <c>ESP</c>
+              <c>22</c>
+              <c>37</c>
+              <c>59</c>
+              <c>35</c>
+              <c>131</c>
+              <c>19</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>41</c>
+              <c>38</c>
+              <c>59</c>
+              <c>36</c>
+              <c>133</c>
+            </r>
+            <r>
+              <c><![CDATA[Sri Lanka ]]></c>
+              <c>SRI</c>
+              <c>16</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Sudan ]]></c>
+              <c>SUD</c>
+              <c>11</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Suriname ]]></c>
+              <c>SUR</c>
+              <c>11</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Sweden ]]></c>
+              <c>SWE</c>
+              <c>26</c>
+              <c>143</c>
+              <c>164</c>
+              <c>176</c>
+              <c>483</c>
+              <c>22</c>
+              <c>50</c>
+              <c>40</c>
+              <c>54</c>
+              <c>144</c>
+              <c>48</c>
+              <c>193</c>
+              <c>204</c>
+              <c>230</c>
+              <c>627</c>
+            </r>
+            <r>
+              <c><![CDATA[Switzerland ]]></c>
+              <c>SUI</c>
+              <c>27</c>
+              <c>47</c>
+              <c>73</c>
+              <c>65</c>
+              <c>185</c>
+              <c>22</c>
+              <c>50</c>
+              <c>40</c>
+              <c>48</c>
+              <c>138</c>
+              <c>49</c>
+              <c>97</c>
+              <c>113</c>
+              <c>113</c>
+              <c>323</c>
+            </r>
+            <r>
+              <c><![CDATA[Syria ]]></c>
+              <c>SYR</c>
+              <c>12</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Chinese Taipei ]]></c>
+              <c>TPE</c>
+              <c>13</c>
+              <c>2</c>
+              <c>7</c>
+              <c>12</c>
+              <c>21</c>
+              <c>11</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24</c>
+              <c>2</c>
+              <c>7</c>
+              <c>12</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c><![CDATA[Tajikistan ]]></c>
+              <c>TJK</c>
+              <c>5</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Tanzania ]]></c>
+              <c>TAN</c>
+              <c>12</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Thailand ]]></c>
+              <c>THA</c>
+              <c>15</c>
+              <c>7</c>
+              <c>6</c>
+              <c>11</c>
+              <c>24</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18</c>
+              <c>7</c>
+              <c>6</c>
+              <c>11</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c><![CDATA[Togo ]]></c>
+              <c>TOG</c>
+              <c>9</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Tonga ]]></c>
+              <c>TGA</c>
+              <c>8</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Trinidad and Tobago ]]></c>
+              <c>TRI</c>
+              <c>16</c>
+              <c>2</c>
+              <c>5</c>
+              <c>11</c>
+              <c>18</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19</c>
+              <c>2</c>
+              <c>5</c>
+              <c>11</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c><![CDATA[Tunisia ]]></c>
+              <c>TUN</c>
+              <c>13</c>
+              <c>3</c>
+              <c>3</c>
+              <c>4</c>
+              <c>10</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>3</c>
+              <c>3</c>
+              <c>4</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c><![CDATA[Turkey ]]></c>
+              <c>TUR</c>
+              <c>21</c>
+              <c>39</c>
+              <c>25</c>
+              <c>24</c>
+              <c>88</c>
+              <c>16</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>37</c>
+              <c>39</c>
+              <c>25</c>
+              <c>24</c>
+              <c>88</c>
+            </r>
+            <r>
+              <c><![CDATA[Uganda ]]></c>
+              <c>UGA</c>
+              <c>14</c>
+              <c>2</c>
+              <c>3</c>
+              <c>2</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>2</c>
+              <c>3</c>
+              <c>2</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c><![CDATA[Ukraine ]]></c>
+              <c>UKR</c>
+              <c>5</c>
+              <c>33</c>
+              <c>27</c>
+              <c>55</c>
+              <c>115</c>
+              <c>6</c>
+              <c>2</c>
+              <c>1</c>
+              <c>4</c>
+              <c>7</c>
+              <c>11</c>
+              <c>35</c>
+              <c>28</c>
+              <c>59</c>
+              <c>122</c>
+            </r>
+            <r>
+              <c><![CDATA[United Arab Emirates ]]></c>
+              <c>UAE</c>
+              <c>8</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[United States ]]></c>
+              <c>USA</c>
+              <c>26</c>
+              <c>976</c>
+              <c>757</c>
+              <c>666</c>
+              <c>2399</c>
+              <c>22</c>
+              <c>96</c>
+              <c>102</c>
+              <c>84</c>
+              <c>282</c>
+              <c>48</c>
+              <c>1072</c>
+              <c>859</c>
+              <c>750</c>
+              <c>2681</c>
+            </r>
+            <r>
+              <c><![CDATA[Uruguay ]]></c>
+              <c>URU</c>
+              <c>20</c>
+              <c>2</c>
+              <c>2</c>
+              <c>6</c>
+              <c>10</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>21</c>
+              <c>2</c>
+              <c>2</c>
+              <c>6</c>
+              <c>10</c>
+            </r>
+            <r>
+              <c><![CDATA[Uzbekistan ]]></c>
+              <c>UZB</c>
+              <c>5</c>
+              <c>5</c>
+              <c>5</c>
+              <c>10</c>
+              <c>20</c>
+              <c>6</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>11</c>
+              <c>6</c>
+              <c>5</c>
+              <c>10</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c><![CDATA[Venezuela ]]></c>
+              <c>VEN</c>
+              <c>17</c>
+              <c>2</c>
+              <c>2</c>
+              <c>8</c>
+              <c>12</c>
+              <c>4</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>21</c>
+              <c>2</c>
+              <c>2</c>
+              <c>8</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c><![CDATA[Vietnam ]]></c>
+              <c>VIE</c>
+              <c>14</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14</c>
+              <c>0</c>
+              <c>2</c>
+              <c>0</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Virgin Islands ]]></c>
+              <c>ISV</c>
+              <c>11</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>7</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c><![CDATA[Yugoslavia ]]></c>
+              <c>YUG</c>
+              <c>16</c>
+              <c>26</c>
+              <c>29</c>
+              <c>28</c>
+              <c>83</c>
+              <c>14</c>
+              <c>0</c>
+              <c>3</c>
+              <c>1</c>
+              <c>4</c>
+              <c>30</c>
+              <c>26</c>
+              <c>32</c>
+              <c>29</c>
+              <c>87</c>
+            </r>
+            <r>
+              <c><![CDATA[Independent Olympic Participants ]]></c>
+              <c>IOP</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1</c>
+              <c>0</c>
+              <c>1</c>
+              <c>2</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c><![CDATA[Zambia ]]></c>
+              <c>ZAM</c>
+              <c>12</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12</c>
+              <c>0</c>
+              <c>1</c>
+              <c>1</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c><![CDATA[Zimbabwe ]]></c>
+              <c>ZIM</c>
+              <c>12</c>
+              <c>3</c>
+              <c>4</c>
+              <c>1</c>
+              <c>8</c>
+              <c>1</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13</c>
+              <c>3</c>
+              <c>4</c>
+              <c>1</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c><![CDATA[Mixed team ]]></c>
+              <c>ZZX</c>
+              <c>3</c>
+              <c>8</c>
+              <c>5</c>
+              <c>4</c>
+              <c>17</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3</c>
+              <c>8</c>
+              <c>5</c>
+              <c>4</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c><![CDATA[Totals ]]></c>
+              <c>all countries</c>
+              <c>27</c>
+              <c>4809</c>
+              <c>4775</c>
+              <c>5130</c>
+              <c>14714</c>
+              <c>22</c>
+              <c>959</c>
+              <c>958</c>
+              <c>948</c>
+              <c>2865</c>
+              <c>49</c>
+              <c>5768</c>
+              <c>5733</c>
+              <c>6078</c>
+              <c>17579</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="78" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="147" />
+          <Fields>
+            <Field name=",№ Summer,Gold ,Silver ,Bronze ,Total,№ Winter,Gold ,Silver ,Bronze ,Total,№ Games,Gold ,Silver ,Bronze ,Combined total" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Afghanistan (AFG),13,0,0,2,2,0,0,0,0,0,13,0,0,2,2</c>
+            </r>
+            <r>
+              <c>Algeria (ALG),12,5,2,8,15,3,0,0,0,0,15,5,2,8,15</c>
+            </r>
+            <r>
+              <c>Argentina (ARG),23,18,24,28,70,18,0,0,0,0,41,18,24,28,70</c>
+            </r>
+            <r>
+              <c>Armenia (ARM),5,1,2,9,12,6,0,0,0,0,11,1,2,9,12</c>
+            </r>
+            <r>
+              <c>Australasia (ANZ) [ANZ],2,3,4,5,12,0,0,0,0,0,2,3,4,5,12</c>
+            </r>
+            <r>
+              <c>Australia (AUS) [AUS] [Z],25,139,152,177,468,18,5,3,4,12,43,144,155,181,480</c>
+            </r>
+            <r>
+              <c>Austria (AUT),26,18,33,35,86,22,59,78,81,218,48,77,111,116,304</c>
+            </r>
+            <r>
+              <c>Azerbaijan (AZE),5,6,5,15,26,5,0,0,0,0,10,6,5,15,26</c>
+            </r>
+            <r>
+              <c>Bahamas (BAH),15,5,2,5,12,0,0,0,0,0,15,5,2,5,12</c>
+            </r>
+            <r>
+              <c>Bahrain (BRN),8,0,0,1,1,0,0,0,0,0,8,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Barbados (BAR) [BAR],11,0,0,1,1,0,0,0,0,0,11,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Belarus (BLR),5,12,24,39,75,6,6,4,5,15,11,18,28,44,90</c>
+            </r>
+            <r>
+              <c>Belgium (BEL),25,37,52,53,142,20,1,1,3,5,45,38,53,56,147</c>
+            </r>
+            <r>
+              <c>Bermuda (BER),17,0,0,1,1,7,0,0,0,0,24,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Bohemia (BOH) [BOH] [Z],3,0,1,3,4,0,0,0,0,0,3,0,1,3,4</c>
+            </r>
+            <r>
+              <c>Botswana (BOT),9,0,1,0,1,0,0,0,0,0,9,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Brazil (BRA),21,23,30,55,108,7,0,0,0,0,28,23,30,55,108</c>
+            </r>
+            <r>
+              <c>British West Indies (BWI) [BWI],1,0,0,2,2,0,0,0,0,0,1,0,0,2,2</c>
+            </r>
+            <r>
+              <c>Bulgaria (BUL) [H],19,51,85,78,214,19,1,2,3,6,38,52,87,81,220</c>
+            </r>
+            <r>
+              <c>Burundi (BDI),5,1,0,0,1,0,0,0,0,0,5,1,0,0,1</c>
+            </r>
+            <r>
+              <c>Cameroon (CMR),13,3,1,1,5,1,0,0,0,0,14,3,1,1,5</c>
+            </r>
+            <r>
+              <c>Canada (CAN),25,59,99,121,279,22,62,56,52,170,47,121,155,173,449</c>
+            </r>
+            <r>
+              <c>Chile (CHI) [I],22,2,7,4,13,16,0,0,0,0,38,2,7,4,13</c>
+            </r>
+            <r>
+              <c>China (CHN) [CHN],9,201,146,126,473,10,12,22,19,53,19,213,168,145,526</c>
+            </r>
+            <r>
+              <c>Colombia (COL),18,2,6,11,19,1,0,0,0,0,19,2,6,11,19</c>
+            </r>
+            <r>
+              <c>Costa Rica (CRC),14,1,1,2,4,6,0,0,0,0,20,1,1,2,4</c>
+            </r>
+            <r>
+              <c>Ivory Coast (CIV) [CIV],12,0,1,0,1,0,0,0,0,0,12,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Croatia (CRO),6,6,7,10,23,7,4,6,1,11,13,10,13,11,34</c>
+            </r>
+            <r>
+              <c>Cuba (CUB) [Z],19,72,67,70,209,0,0,0,0,0,19,72,67,70,209</c>
+            </r>
+            <r>
+              <c>Cyprus (CYP),9,0,1,0,1,10,0,0,0,0,19,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Czech Republic (CZE) [CZE],5,14,15,15,44,6,7,9,8,24,11,21,24,23,68</c>
+            </r>
+            <r>
+              <c>Czechoslovakia (TCH) [TCH],16,49,49,45,143,16,2,8,15,25,32,51,57,60,168</c>
+            </r>
+            <r>
+              <c>Denmark (DEN) [Z],26,43,68,68,179,13,0,1,0,1,39,43,69,68,180</c>
+            </r>
+            <r>
+              <c>Djibouti (DJI) [B],7,0,0,1,1,0,0,0,0,0,7,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Dominican Republic (DOM),13,3,2,1,6,0,0,0,0,0,13,3,2,1,6</c>
+            </r>
+            <r>
+              <c>Ecuador (ECU),13,1,1,0,2,0,0,0,0,0,13,1,1,0,2</c>
+            </r>
+            <r>
+              <c>Egypt (EGY) [EGY] [Z],21,7,9,10,26,1,0,0,0,0,22,7,9,10,26</c>
+            </r>
+            <r>
+              <c>Eritrea (ERI),4,0,0,1,1,0,0,0,0,0,4,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Estonia (EST),11,9,9,15,33,9,4,2,1,7,20,13,11,16,40</c>
+            </r>
+            <r>
+              <c>Ethiopia (ETH),12,21,7,17,45,2,0,0,0,0,14,21,7,17,45</c>
+            </r>
+            <r>
+              <c>Finland (FIN),24,101,84,117,302,22,42,62,57,161,46,143,146,174,463</c>
+            </r>
+            <r>
+              <c>France (FRA) [O] [P] [Z],27,202,223,246,671,22,31,31,47,109,49,233,254,293,780</c>
+            </r>
+            <r>
+              <c>Gabon (GAB),9,0,1,0,1,0,0,0,0,0,9,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Georgia (GEO),5,6,5,14,25,6,0,0,0,0,11,6,5,14,25</c>
+            </r>
+            <r>
+              <c>Germany (GER) [GER] [Z],15,174,182,217,573,11,78,78,53,209,26,252,260,270,782</c>
+            </r>
+            <r>
+              <c>United Team of Germany (EUA) [EUA],3,28,54,36,118,3,8,6,5,19,6,36,60,41,137</c>
+            </r>
+            <r>
+              <c>East Germany (GDR) [GDR],5,153,129,127,409,6,39,36,35,110,11,192,165,162,519</c>
+            </r>
+            <r>
+              <c>West Germany (FRG) [FRG],5,56,67,81,204,6,11,15,13,39,11,67,82,94,243</c>
+            </r>
+            <r>
+              <c>Ghana (GHA) [GHA],13,0,1,3,4,1,0,0,0,0,14,0,1,3,4</c>
+            </r>
+            <r>
+              <c>Great Britain (GBR) [GBR] [Z],27,236,272,272,780,22,10,4,12,26,49,246,276,284,806</c>
+            </r>
+            <r>
+              <c>Greece (GRE) [Z],27,30,42,39,111,18,0,0,0,0,45,30,42,39,111</c>
+            </r>
+            <r>
+              <c>Grenada (GRN),8,1,0,0,1,0,0,0,0,0,8,1,0,0,1</c>
+            </r>
+            <r>
+              <c>Guatemala (GUA),13,0,1,0,1,1,0,0,0,0,14,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Guyana (GUY) [GUY],16,0,0,1,1,0,0,0,0,0,16,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Haiti (HAI) [J],14,0,1,1,2,0,0,0,0,0,14,0,1,1,2</c>
+            </r>
+            <r>
+              <c>Hong Kong (HKG) [HKG],15,1,1,1,3,4,0,0,0,0,19,1,1,1,3</c>
+            </r>
+            <r>
+              <c>Hungary (HUN),25,167,144,165,476,22,0,2,4,6,47,167,146,169,482</c>
+            </r>
+            <r>
+              <c>Iceland (ISL),19,0,2,2,4,17,0,0,0,0,36,0,2,2,4</c>
+            </r>
+            <r>
+              <c>India (IND) [F],23,9,6,11,26,9,0,0,0,0,32,9,6,11,26</c>
+            </r>
+            <r>
+              <c>Indonesia (INA),14,6,10,11,27,0,0,0,0,0,14,6,10,11,27</c>
+            </r>
+            <r>
+              <c>Iran (IRI) [K],15,15,20,25,60,10,0,0,0,0,25,15,20,25,60</c>
+            </r>
+            <r>
+              <c>Iraq (IRQ),13,0,0,1,1,0,0,0,0,0,13,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Ireland (IRL),20,9,8,12,29,6,0,0,0,0,26,9,8,12,29</c>
+            </r>
+            <r>
+              <c>Israel (ISR),15,1,1,5,7,6,0,0,0,0,21,1,1,5,7</c>
+            </r>
+            <r>
+              <c>Italy (ITA) [M] [S],26,198,166,185,549,22,37,34,43,114,48,235,200,228,663</c>
+            </r>
+            <r>
+              <c>Jamaica (JAM) [JAM],16,17,30,20,67,7,0,0,0,0,23,17,30,20,67</c>
+            </r>
+            <r>
+              <c>Japan (JPN),21,130,126,142,398,20,10,17,18,45,41,140,143,160,443</c>
+            </r>
+            <r>
+              <c>Kazakhstan (KAZ),5,16,17,19,52,6,1,3,3,7,11,17,20,22,59</c>
+            </r>
+            <r>
+              <c>Kenya (KEN),13,25,32,29,86,3,0,0,0,0,16,25,32,29,86</c>
+            </r>
+            <r>
+              <c>North Korea (PRK),9,14,12,21,47,8,0,1,1,2,17,14,13,22,49</c>
+            </r>
+            <r>
+              <c>South Korea (KOR),16,81,82,80,243,17,26,17,10,53,33,107,99,90,296</c>
+            </r>
+            <r>
+              <c>Kuwait (KUW),12,0,0,2,2,0,0,0,0,0,12,0,0,2,2</c>
+            </r>
+            <r>
+              <c>Kyrgyzstan (KGZ),5,0,1,2,3,6,0,0,0,0,11,0,1,2,3</c>
+            </r>
+            <r>
+              <c>Latvia (LAT),10,3,11,5,19,10,0,4,3,7,20,3,15,8,26</c>
+            </r>
+            <r>
+              <c>Lebanon (LIB),16,0,2,2,4,16,0,0,0,0,32,0,2,2,4</c>
+            </r>
+            <r>
+              <c>Liechtenstein (LIE),16,0,0,0,0,18,2,2,5,9,34,2,2,5,9</c>
+            </r>
+            <r>
+              <c>Lithuania (LTU),8,6,5,10,21,8,0,0,0,0,16,6,5,10,21</c>
+            </r>
+            <r>
+              <c>Luxembourg (LUX) [O],22,1,1,0,2,8,0,2,0,2,30,1,3,0,4</c>
+            </r>
+            <r>
+              <c>Macedonia (MKD),5,0,0,1,1,5,0,0,0,0,10,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Malaysia (MAS) [MAS],12,0,3,3,6,0,0,0,0,0,12,0,3,3,6</c>
+            </r>
+            <r>
+              <c>Mauritius (MRI),8,0,0,1,1,0,0,0,0,0,8,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Mexico (MEX),22,13,21,28,62,8,0,0,0,0,30,13,21,28,62</c>
+            </r>
+            <r>
+              <c>Moldova (MDA),5,0,2,5,7,6,0,0,0,0,11,0,2,5,7</c>
+            </r>
+            <r>
+              <c>Mongolia (MGL),12,2,9,13,24,13,0,0,0,0,25,2,9,13,24</c>
+            </r>
+            <r>
+              <c>Montenegro (MNE),2,0,1,0,1,2,0,0,0,0,4,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Morocco (MAR),13,6,5,11,22,6,0,0,0,0,19,6,5,11,22</c>
+            </r>
+            <r>
+              <c>Mozambique (MOZ),9,1,0,1,2,0,0,0,0,0,9,1,0,1,2</c>
+            </r>
+            <r>
+              <c>Namibia (NAM),6,0,4,0,4,0,0,0,0,0,6,0,4,0,4</c>
+            </r>
+            <r>
+              <c>Netherlands (NED) [Z],25,77,85,104,266,20,37,38,35,110,45,114,123,139,376</c>
+            </r>
+            <r>
+              <c>Netherlands Antilles (AHO) [AHO] [I],13,0,1,0,1,2,0,0,0,0,15,0,1,0,1</c>
+            </r>
+            <r>
+              <c>New Zealand (NZL) [NZL],22,42,18,39,99,15,0,1,0,1,37,42,19,39,100</c>
+            </r>
+            <r>
+              <c>Niger (NIG),11,0,0,1,1,0,0,0,0,0,11,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Nigeria (NGR),15,3,8,12,23,0,0,0,0,0,15,3,8,12,23</c>
+            </r>
+            <r>
+              <c>Norway (NOR) [Q],24,56,49,43,148,22,118,111,100,329,46,174,160,143,477</c>
+            </r>
+            <r>
+              <c>Pakistan (PAK),16,3,3,4,10,2,0,0,0,0,18,3,3,4,10</c>
+            </r>
+            <r>
+              <c>Panama (PAN),16,1,0,2,3,0,0,0,0,0,16,1,0,2,3</c>
+            </r>
+            <r>
+              <c>Paraguay (PAR),11,0,1,0,1,1,0,0,0,0,12,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Peru (PER) [L],17,1,3,0,4,2,0,0,0,0,19,1,3,0,4</c>
+            </r>
+            <r>
+              <c>Philippines (PHI),20,0,2,7,9,4,0,0,0,0,24,0,2,7,9</c>
+            </r>
+            <r>
+              <c>Poland (POL),20,64,82,125,271,22,6,7,7,20,42,70,89,132,291</c>
+            </r>
+            <r>
+              <c>Portugal (POR),23,4,8,11,23,7,0,0,0,0,30,4,8,11,23</c>
+            </r>
+            <r>
+              <c>Puerto Rico (PUR),17,0,2,6,8,6,0,0,0,0,23,0,2,6,8</c>
+            </r>
+            <r>
+              <c>Qatar (QAT),8,0,0,4,4,0,0,0,0,0,8,0,0,4,4</c>
+            </r>
+            <r>
+              <c>Romania (ROU),20,88,94,119,301,20,0,0,1,1,40,88,94,120,302</c>
+            </r>
+            <r>
+              <c>Russia (RUS) [RUS],5,132,121,142,395,6,49,40,35,124,11,181,161,177,519</c>
+            </r>
+            <r>
+              <c>Russian Empire (RU1) [RU1],3,1,4,3,8,0,0,0,0,0,3,1,4,3,8</c>
+            </r>
+            <r>
+              <c>Soviet Union (URS) [URS],9,395,319,296,1010,9,78,57,59,194,18,473,376,355,1204</c>
+            </r>
+            <r>
+              <c>Unified Team (EUN) [EUN],1,45,38,29,112,1,9,6,8,23,2,54,44,37,135</c>
+            </r>
+            <r>
+              <c>Saudi Arabia (KSA),10,0,1,2,3,0,0,0,0,0,10,0,1,2,3</c>
+            </r>
+            <r>
+              <c>Senegal (SEN),13,0,1,0,1,5,0,0,0,0,18,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Serbia (SRB) [SRB],3,1,2,4,7,2,0,0,0,0,5,1,2,4,7</c>
+            </r>
+            <r>
+              <c>Serbia and Montenegro (SCG) [SCG],3,2,4,3,9,3,0,0,0,0,6,2,4,3,9</c>
+            </r>
+            <r>
+              <c>Singapore (SIN),15,0,2,2,4,0,0,0,0,0,15,0,2,2,4</c>
+            </r>
+            <r>
+              <c>Slovakia (SVK) [SVK],5,7,9,8,24,6,2,2,1,5,11,9,11,9,29</c>
+            </r>
+            <r>
+              <c>Slovenia (SLO),6,4,6,9,19,7,2,4,9,15,13,6,10,18,34</c>
+            </r>
+            <r>
+              <c>South Africa (RSA),18,23,26,27,76,6,0,0,0,0,24,23,26,27,76</c>
+            </r>
+            <r>
+              <c>Spain (ESP) [Z],22,37,59,35,131,19,1,0,1,2,41,38,59,36,133</c>
+            </r>
+            <r>
+              <c>Sri Lanka (SRI) [SRI],16,0,2,0,2,0,0,0,0,0,16,0,2,0,2</c>
+            </r>
+            <r>
+              <c>Sudan (SUD),11,0,1,0,1,0,0,0,0,0,11,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Suriname (SUR) [E],11,1,0,1,2,0,0,0,0,0,11,1,0,1,2</c>
+            </r>
+            <r>
+              <c>Sweden (SWE) [Z],26,143,164,176,483,22,50,40,54,144,48,193,204,230,627</c>
+            </r>
+            <r>
+              <c>Switzerland (SUI),27,47,73,65,185,22,50,40,48,138,49,97,113,113,323</c>
+            </r>
+            <r>
+              <c>Syria (SYR),12,1,1,1,3,0,0,0,0,0,12,1,1,1,3</c>
+            </r>
+            <r>
+              <c>Chinese Taipei (TPE) [TPE] [TPE2],13,2,7,12,21,11,0,0,0,0,24,2,7,12,21</c>
+            </r>
+            <r>
+              <c>Tajikistan (TJK),5,0,1,2,3,4,0,0,0,0,9,0,1,2,3</c>
+            </r>
+            <r>
+              <c>Tanzania (TAN) [TAN],12,0,2,0,2,0,0,0,0,0,12,0,2,0,2</c>
+            </r>
+            <r>
+              <c>Thailand (THA),15,7,6,11,24,3,0,0,0,0,18,7,6,11,24</c>
+            </r>
+            <r>
+              <c>Togo (TOG),9,0,0,1,1,1,0,0,0,0,10,0,0,1,1</c>
+            </r>
+            <r>
+              <c>Tonga (TGA),8,0,1,0,1,1,0,0,0,0,9,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Trinidad and Tobago (TRI) [TRI],16,2,5,11,18,3,0,0,0,0,19,2,5,11,18</c>
+            </r>
+            <r>
+              <c>Tunisia (TUN),13,3,3,4,10,0,0,0,0,0,13,3,3,4,10</c>
+            </r>
+            <r>
+              <c>Turkey (TUR),21,39,25,24,88,16,0,0,0,0,37,39,25,24,88</c>
+            </r>
+            <r>
+              <c>Uganda (UGA),14,2,3,2,7,0,0,0,0,0,14,2,3,2,7</c>
+            </r>
+            <r>
+              <c>Ukraine (UKR),5,33,27,55,115,6,2,1,4,7,11,35,28,59,122</c>
+            </r>
+            <r>
+              <c>United Arab Emirates (UAE),8,1,0,0,1,0,0,0,0,0,8,1,0,0,1</c>
+            </r>
+            <r>
+              <c>United States (USA) [P] [Q] [R] [Z],26,976,757,666,2399,22,96,102,84,282,48,1072,859,750,2681</c>
+            </r>
+            <r>
+              <c>Uruguay (URU),20,2,2,6,10,1,0,0,0,0,21,2,2,6,10</c>
+            </r>
+            <r>
+              <c>Uzbekistan (UZB),5,5,5,10,20,6,1,0,0,1,11,6,5,10,21</c>
+            </r>
+            <r>
+              <c>Venezuela (VEN),17,2,2,8,12,4,0,0,0,0,21,2,2,8,12</c>
+            </r>
+            <r>
+              <c>Vietnam (VIE),14,0,2,0,2,0,0,0,0,0,14,0,2,0,2</c>
+            </r>
+            <r>
+              <c>Virgin Islands (ISV),11,0,1,0,1,7,0,0,0,0,18,0,1,0,1</c>
+            </r>
+            <r>
+              <c>Yugoslavia (YUG) [YUG],16,26,29,28,83,14,0,3,1,4,30,26,32,29,87</c>
+            </r>
+            <r>
+              <c>Independent Olympic Participants (IOP) [IOP],1,0,1,2,3,0,0,0,0,0,1,0,1,2,3</c>
+            </r>
+            <r>
+              <c>Zambia (ZAM) [ZAM],12,0,1,1,2,0,0,0,0,0,12,0,1,1,2</c>
+            </r>
+            <r>
+              <c>Zimbabwe (ZIM) [ZIM],12,3,4,1,8,1,0,0,0,0,13,3,4,1,8</c>
+            </r>
+            <r>
+              <c>Mixed team (ZZX) [ZZX],3,8,5,4,17,0,0,0,0,0,3,8,5,4,17</c>
+            </r>
+            <r>
+              <c>Totals (all countries) ,27,4809,4775,5130,14714,22,959,958,948,2865,49,5768,5733,6078,17579</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="245" y="1025" width="547" height="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solution</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="270" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>,№ Summer,Gold ,Silver ,Bronze ,Total,№ Winter,Gold ,Silver ,Bronze ,Total,№ Games,Gold ,Silver ,Bronze ,Combined total</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="()" />
+              <NumFields value="3" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse based on ( ) parentheses (will split out country and country code)</AnnotationText>
+              <DefaultAnnotationText>Parse based on ( ) parentheses (will split out country and country code)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="546" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Data</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>
+              </RootName>
+              <Delimeters value="," />
+              <NumFields value="16" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Parse based on commas</AnnotationText>
+              <DefaultAnnotationText>Parse based on commas</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="414" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field=",№ Summer,Gold ,Silver ,Bronze ,Total,№ Winter,Gold ,Silver ,Bronze ,Total,№ Games,Gold ,Silver ,Bronze ,Combined total" selected="False" />
+                <SelectField field="1" selected="True" rename="Participating Country" />
+                <SelectField field="2" selected="True" rename="Country Code" />
+                <SelectField field="3" selected="True" rename="Data" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename columns</AnnotationText>
+              <DefaultAnnotationText>Rename columns</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="666" y="1074" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Participating Country" selected="True" />
+                <SelectField field="Country Code" selected="True" />
+                <SelectField field="1" selected="False" />
+                <SelectField field="2" selected="True" rename="Total Summer Games" type="Int32" size="4" />
+                <SelectField field="3" selected="True" rename="Total Gold Medals Summer" type="Int32" size="4" />
+                <SelectField field="4" selected="True" rename="Total Silver Medals Summer" type="Int32" size="4" />
+                <SelectField field="5" selected="True" rename="Total Bronze Medals Summer" type="Int32" size="4" />
+                <SelectField field="6" selected="True" rename="Total Medals Combined Summer" type="Int32" size="4" />
+                <SelectField field="7" selected="True" rename="Total Winter Games" type="Int32" size="4" />
+                <SelectField field="8" selected="True" rename="Total Gold Medals Winter" type="Int32" size="4" />
+                <SelectField field="9" selected="True" rename="Total Silver Medals Winter" type="Int32" size="4" />
+                <SelectField field="10" selected="True" rename="Total Bronze Medals Winter" type="Int32" size="4" />
+                <SelectField field="11" selected="True" rename="Total Medals Combined Winter" type="Int32" size="4" />
+                <SelectField field="12" selected="True" rename="Total Combined Games" type="Int32" size="4" />
+                <SelectField field="13" selected="True" rename="Total Gold Medals Combined Games" type="Int32" size="4" />
+                <SelectField field="14" selected="True" rename="Total Silver Medals Combined Games" type="Int32" size="4" />
+                <SelectField field="15" selected="True" rename="Total Bronze Medals Combined Games" type="Int32" size="4" />
+                <SelectField field="16" selected="True" rename="Total All Medals Combined Games" type="Int32" size="4" />
+                <SelectField field="Data" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename columns</AnnotationText>
+              <DefaultAnnotationText>Rename columns</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="68" y="1532" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="78" y="1566" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>challenge_355_solution_file_desktop_user</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

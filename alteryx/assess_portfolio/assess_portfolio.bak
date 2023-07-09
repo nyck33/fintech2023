@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AAPL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="High" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="Low" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="Volume" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+            <Field name="Adj Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\AAPL.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GOOG.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="High" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="Low" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="Volume" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+            <Field name="Adj Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GOOG.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GLD.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="High" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="Low" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="Volume" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+            <Field name="Adj Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\GLD.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>XOM.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="High" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="Low" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="Volume" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+            <Field name="Adj Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\XOM.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="30" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SPY.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="Open" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="High" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="Low" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="Volume" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+            <Field name="Adj Close" size="254" source="File: D:\Nomura\ml4t\ML4T_2023Sum\data\SPY.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="126" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\users\nycki_gq3buqc\appdata\local\alteryx\bin\new workflow2</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>designerbasetools_venv</vEnvName>
+          <DefaultVenv>1</DefaultVenv>
+          <productionModeScript />
+          <Port>52241</Port>
+          <JupyterGuidDir>bd2afb69bd9ed8daac6706f57d7c9fba</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <LastExecutedByEngineVersion>*</LastExecutedByEngineVersion>
+          <Notebook><![CDATA[{"cells":[{"metadata":{"ayx":{"cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","contents_keyword":"Alteryx.help()","label":"info"}},"cell_type":"markdown","source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"metadata":{"ayx":{"cell_css":"border: 1px solid #58a; margin: 2px;","contents_keyword":"installPackages","label":"deps"}},"cell_type":"code","source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"],"execution_count":null,"outputs":[]},{"metadata":{},"cell_type":"code","source":["from ayx import Alteryx\n","\n"],"execution_count":null,"outputs":[]}],"metadata":{"kernelspec":{"name":"designerbasetools_venv","display_name":"designerbasetools_venv","language":"python"},"language_info":{"name":"python","version":"3.8.5","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>assess_portfolio</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="73196475-93fa-401b-b826-87ab358e8501" />
+      <Telemetry>
+        <PreviousWorkflowId value="0509ebba-ad78-4f64-be44-6e000848935a" />
+        <OriginWorkflowId value="0509ebba-ad78-4f64-be44-6e000848935a" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

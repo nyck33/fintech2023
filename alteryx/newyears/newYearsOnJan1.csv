@@ -1,0 +1,97 @@
+date,english_name,fixed_date,global_holiday,type,Country_code,Country_name
+2019-01-01,"New Year's Day",True,True,Public,AD,Andorra
+2019-01-01,"New Year's Day",True,True,Public,AL,Albania
+2019-01-01,"New Year's Day",True,True,Public,AR,Argentina
+2019-01-01,"New Year's Day",True,True,Public,AT,Austria
+2019-01-01,"New Year's Day",True,True,Public,AU,Australia
+2019-01-01,"New Year's Day",True,True,Public,AX,Åland Islands
+2019-01-01,"New Year's Day",True,True,Public,BB,Barbados
+2019-01-01,"New Year's Day",True,True,Public,BE,Belgium
+2019-01-01,"New Year's Day",True,True,Public,BG,Bulgaria
+2019-01-01,"New Year's Day",True,True,Public,BJ,Benin
+2019-01-01,"New Year's Day",True,True,Public,BO,Bolivia
+2019-01-01,"New Year's Day",True,True,Public,BR,Brazil
+2019-01-01,"New Year's Day",True,True,Public,BS,Bahamas
+2019-01-01,"New Year's Day",True,True,Public,BW,Botswana
+2019-01-01,"New Year's Day",True,True,Public,BY,Belarus
+2019-01-01,"New Year's Day",False,True,Public,BZ,Belize
+2019-01-01,"New Year's Day",True,True,Public,CA,Canada
+2019-01-01,"New Year's Day",True,True,Public,CH,Switzerland
+2019-01-01,"New Year's Day",False,True,Public,CL,Chile
+2019-01-01,"New Year's Day",True,True,Public,CN,China
+2019-01-01,"New Year's Day",True,True,Public,CO,Colombia
+2019-01-01,"New Year's Day",True,True,Public,CR,Costa Rica
+2019-01-01,"New Year's Day",True,True,Public,CY,Cyprus
+2019-01-01,"New Year's Day",True,True,Public,CZ,Czechia
+2019-01-01,"New Year's Day",True,True,Public,DE,Germany
+2019-01-01,"New Year's Day",True,True,Public,DK,Denmark
+2019-01-01,"New Year's Day",True,True,Public,DO,Dominican Republic
+2019-01-01,"New Year's Day",True,True,Public,EC,Ecuador
+2019-01-01,"New Year's Day",True,True,Public,EE,Estonia
+2019-01-01,"New Year's Day",True,True,Public,ES,Spain
+2019-01-01,"New Year's Day",True,True,Public,FI,Finland
+2019-01-01,"New Year's Day",True,True,Public,FO,Faroe Islands
+2019-01-01,"New Year's Day",True,True,Public,FR,France
+2019-01-01,"New Year's Day",True,True,Public,GA,Gabon
+2019-01-01,"New Year's Day",False,True,Public,GB,United Kingdom
+2019-01-01,"New Year's Day",True,True,Public,GD,Grenada
+2019-01-01,"New Year's Day",True,True,Public,GL,Greenland
+2019-01-01,"New Year's Day",True,True,Public,GM,Gambia
+2019-01-01,"New Year's Day",True,True,Public,GR,Greece
+2019-01-01,"New Year's Day",True,True,Public,GT,Guatemala
+2019-01-01,"New Year's Day",True,True,Public,GY,Guyana
+2019-01-01,"New Year's Day",True,True,Public,HN,Honduras
+2019-01-01,"New Year's Day",True,True,Public,HR,Croatia
+2019-01-01,"New Year's Day",True,True,Public,HT,Haiti
+2019-01-01,"New Year's Day",True,True,Public,HU,Hungary
+2019-01-01,"New Year's Day",True,True,Public,ID,Indonesia
+2019-01-01,"New Year's Day",True,True,Public,IE,Ireland
+2019-01-01,"New Year's Day",True,True,Public,IM,Isle of Man
+2019-01-01,"New Year's Day",True,True,Public,IS,Iceland
+2019-01-01,"New Year's Day",True,True,Public,IT,Italy
+2019-01-01,"New Year's Day",True,True,Public,JE,Jersey
+2019-01-01,"New Year's Day",True,True,Public,JM,Jamaica
+2019-01-01,"New Year's Day",False,True,Public,JP,Japan
+2019-01-01,"New Year's Day",True,True,Public,LI,Liechtenstein
+2019-01-01,"New Year's Day",True,True,Public,LS,Lesotho
+2019-01-01,"New Year's Day",True,True,Public,LT,Lithuania
+2019-01-01,"New Year's Day",True,True,Public,LU,Luxembourg
+2019-01-01,"New Year's Day",True,True,Public,LV,Latvia
+2019-01-01,"New Year's Day",True,True,Public,MA,Morocco
+2019-01-01,"New Year's Day",False,True,Public,MC,Monaco
+2019-01-01,"New Year's Day",True,True,Public,MD,Moldova
+2019-01-01,"New Year's Day",True,True,Public,MG,Madagascar
+2019-01-01,"New Year's Day",True,True,Public,MK,North Macedonia
+2019-01-01,"New Year's Day",True,True,Public,MN,Mongolia
+2019-01-01,"New Year's Day",True,True,Public,MT,Malta
+2019-01-01,"New Year's Day",False,True,Public,MX,Mexico
+2019-01-01,"New Year's Day",True,True,Public,MZ,Mozambique
+2019-01-01,"New Year's Day",True,True,Public,NA,Namibia
+2019-01-01,"New Year's Day",True,True,Public,NE,Niger
+2019-01-01,"New Year's Day",True,True,Public,NI,Nicaragua
+2019-01-01,"New Year's Day",True,True,Public,NL,Netherlands
+2019-01-01,"New Year's Day",True,True,Public,NO,Norway
+2019-01-01,"New Year's Day",False,True,Public,NZ,New Zealand
+2019-01-01,"New Year's Day",True,True,Public,PA,Panama
+2019-01-01,"New Year's Day",True,True,Public,PE,Peru
+2019-01-01,"New Year's Day",True,True,Public,PL,Poland
+2019-01-01,"New Year's Day",False,True,Public,PR,Puerto Rico
+2019-01-01,"New Year's Day",True,True,Public,PT,Portugal
+2019-01-01,"New Year's Day",True,True,Public,PY,Paraguay
+2019-01-01,"New Year's Day",True,True,Public,RO,Romania
+2019-01-01,"New Year's Day",True,True,Public,RS,Serbia
+2019-01-01,"New Year's Day",True,True,Public,RU,Russia
+2019-01-01,"New Year's Day",True,True,Public,SE,Sweden
+2019-01-01,"New Year's Day",True,True,Public,SI,Slovenia
+2019-01-01,"New Year's Day",True,True,Public,SJ,Svalbard and Jan Mayen
+2019-01-01,"New Year's Day",True,True,Public,SM,San Marino
+2019-01-01,"New Year's Day",True,True,Public,SR,Suriname
+2019-01-01,"New Year's Day",True,True,Public,TN,Tunisia
+2019-01-01,"New Year's Day",True,True,Public,TR,Turkey
+2019-01-01,"New Year's Day",True,True,Public,UA,Ukraine
+2019-01-01,"New Year's Day",False,True,Public,US,United States
+2019-01-01,"New Year's Day",True,True,Public,UY,Uruguay
+2019-01-01,"New Year's Day",True,True,Public,VE,Venezuela
+2019-01-01,"New Year's Day",True,True,Public,VN,Vietnam
+2019-01-01,"New Year's Day",True,True,Public,ZA,South Africa
+2019-01-01,"New Year's Day",True,True,Public,ZW,Zimbabwe

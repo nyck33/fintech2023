@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="984" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Spatial Analytics for Beginners
+Level: Beginner 
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="18" style="0" />
+          <TextColor name="White" />
+          <FillColor r="95" g="152" b="171" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="498" y="66" width="516" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Based on some reserch done by the analytics team, they found customers within a 2.5 minute drive or within a 1 mile drive to be their most freuqently visited customers. Based on this, fund which customers will fit that description to send the coupons to further incentivize their spending for each visit.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="95" g="152" b="171" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="56" y="884" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#0090c8" FillColor="#eaeaea" BorderColor="#0090c8" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="66" y="918" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor r="0" g="144" b="200" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="366" width="1583" height="526" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="114" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Stores.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Connect to the Stores.xlsx data source.
+]]></AnnotationText>
+              <DefaultAnnotationText>Stores.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Store_Num" size="255" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Address" size="255" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="City" size="255" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="State" size="255" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="ZIP" size="255" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Lat" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Lon" source="File: C:\Users\christian.lopez\OneDrive - alteryx.com\Desktop\Monday_Spatial_Analytics_for_Begginers\Stores.xlsx|||`Sheet1$`" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+            <Position x="330" y="678" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields fieldX="Lon" fieldY="Lat" />
+              <Mode>Double</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Find each Store's spatial object.</AnnotationText>
+              <DefaultAnnotationText>Find each Store's spatial object.</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.FindNearest.FindNearest">
+            <Position x="786" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="CustPoint" />
+              <Universe SpatialObj="Centroid" />
+              <HowMany value="1" />
+              <MaxDistance value="2.5" />
+              <MaxDistanceUnits>DriveTime</MaxDistanceUnits>
+              <Ignore0 value="False" />
+              <DriveTimeDataSet>Latest:TeleAtlas_US</DriveTimeDataSet>
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Universe_City" selected="True" rename="Universe_City" />
+                    <SelectField field="Universe_State" selected="True" rename="Universe_State" />
+                    <SelectField field="Universe_ZIP" selected="True" rename="Universe_ZIP" />
+                    <SelectField field="Universe_Lat" selected="True" rename="Universe_Lat" />
+                    <SelectField field="Universe_Lon" selected="True" rename="Universe_Lon" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxFindNearest" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.FindNearest.FindNearest">
+            <Position x="906" y="666" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Target SpatialObj="CustPoint" />
+              <Universe SpatialObj="Centroid" />
+              <HowMany value="1" />
+              <MaxDistance value="1.5" />
+              <MaxDistanceUnits>DriveDistanceMiles</MaxDistanceUnits>
+              <Ignore0 value="False" />
+              <DriveTimeDataSet>Latest:TeleAtlas_US</DriveTimeDataSet>
+              <SelectConfiguration>
+                <Configuration outputConnection="Matched">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Universe_City" selected="True" rename="Universe_City" />
+                    <SelectField field="Universe_State" selected="True" rename="Universe_State" />
+                    <SelectField field="Universe_ZIP" selected="True" rename="Universe_ZIP" />
+                    <SelectField field="Universe_Lat" selected="True" rename="Universe_Lat" />
+                    <SelectField field="Universe_Lon" selected="True" rename="Universe_Lon" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[We are setting to 1.5 because we want to find customers within a mile with reverse routing included
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[We are setting to 1.5 because we want to find customers within a mile with reverse routing included]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxFindNearest" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1422" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <AutoResetMode>ByName</AutoResetMode>
+              <MultiMetaInfo>
+                <MetaInfo name="#1">
+                  <RecordInfo>
+                    <Field name="RecordID" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="1" />
+                    <Field name="Addr_Line1" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="2" />
+                    <Field name="City" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="3" />
+                    <Field name="State" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="4" />
+                    <Field name="Zip" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="5" />
+                    <Field name="CASS_Address2" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="6" />
+                    <Field name="CASS_AddressPlusSuite" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="7" />
+                    <Field name="CASS_CarrierRoute" size="4" source="CASS: US=2016-05-15 CA=" type="String" column="8" />
+                    <Field name="CASS_City" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="9" />
+                    <Field name="CASS_DeliveryPointCheckDigit" size="1" source="CASS: US=2016-05-15 CA=" type="String" column="10" />
+                    <Field name="CASS_DeliveryPointCode" size="2" source="CASS: US=2016-05-15 CA=" type="String" column="11" />
+                    <Field name="CASS_LastLine" size="80" source="CASS: US=2016-05-15 CA=" type="V_String" column="12" />
+                    <Field name="CASS_Plus4" size="4" source="CASS: US=2016-05-15 CA=" type="String" column="13" />
+                    <Field name="CASS_Results" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="14" />
+                    <Field name="CASS_State" size="2" source="CASS: US=2016-05-15 CA=" type="String" column="15" />
+                    <Field name="CASS_ZIP" size="7" source="CASS: US=2016-05-15 CA=" type="String" column="16" />
+                    <Field name="MatchStatus" size="8" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" column="17" />
+                    <Field name="Score" scale="1" size="6" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="FixedDecimal" column="18" />
+                    <Field name="CustPoint" size="2147483647" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="SpatialObj" column="19" />
+                    <Field name="Lat" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" column="20" />
+                    <Field name="Lon" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" column="21" />
+                    <Field name="GeoLevel" size="15" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" column="22" />
+                    <Field name="CensusId" size="16" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="V_String" column="23" />
+                    <Field name="Store_Num" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="24" />
+                    <Field name="Address" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="25" />
+                    <Field name="Universe_City" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="26" />
+                    <Field name="Universe_State" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="27" />
+                    <Field name="Universe_ZIP" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="28" />
+                    <Field name="Universe_Lat" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="Double" column="29" />
+                    <Field name="Universe_Lon" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="Double" column="30" />
+                    <Field name="Centroid" size="2147483647" source="CreatePoints: x=Lon y=Lat" type="SpatialObj" column="31" />
+                    <Field name="FindNearestRank" source="FindNearest: Rank" type="Int16" column="32" />
+                    <Field name="DriveTime" source="FindNearest: Distance Units=DriveTime" type="Double" column="33" />
+                    <Field name="DriveDistanceMiles" source="FindNearest: DriveDistance (Route optimized by time)" type="Double" column="34" />
+                    <Field name="OptimizationType" size="64" source="Formula: &quot;DriveTime&quot;" type="V_WString" column="35" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo name="#2">
+                  <RecordInfo>
+                    <Field name="RecordID" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="1" />
+                    <Field name="Addr_Line1" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="2" />
+                    <Field name="City" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="3" />
+                    <Field name="State" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="4" />
+                    <Field name="Zip" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" column="5" />
+                    <Field name="CASS_Address2" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="6" />
+                    <Field name="CASS_AddressPlusSuite" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="7" />
+                    <Field name="CASS_CarrierRoute" size="4" source="CASS: US=2016-05-15 CA=" type="String" column="8" />
+                    <Field name="CASS_City" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="9" />
+                    <Field name="CASS_DeliveryPointCheckDigit" size="1" source="CASS: US=2016-05-15 CA=" type="String" column="10" />
+                    <Field name="CASS_DeliveryPointCode" size="2" source="CASS: US=2016-05-15 CA=" type="String" column="11" />
+                    <Field name="CASS_LastLine" size="80" source="CASS: US=2016-05-15 CA=" type="V_String" column="12" />
+                    <Field name="CASS_Plus4" size="4" source="CASS: US=2016-05-15 CA=" type="String" column="13" />
+                    <Field name="CASS_Results" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" column="14" />
+                    <Field name="CASS_State" size="2" source="CASS: US=2016-05-15 CA=" type="String" column="15" />
+                    <Field name="CASS_ZIP" size="7" source="CASS: US=2016-05-15 CA=" type="String" column="16" />
+                    <Field name="MatchStatus" size="8" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" column="17" />
+                    <Field name="Score" scale="1" size="6" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="FixedDecimal" column="18" />
+                    <Field name="CustPoint" size="2147483647" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="SpatialObj" column="19" />
+                    <Field name="Lat" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" column="20" />
+                    <Field name="Lon" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" column="21" />
+                    <Field name="GeoLevel" size="15" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" column="22" />
+                    <Field name="CensusId" size="16" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="V_String" column="23" />
+                    <Field name="Store_Num" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="24" />
+                    <Field name="Address" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="25" />
+                    <Field name="Universe_City" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="26" />
+                    <Field name="Universe_State" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="27" />
+                    <Field name="Universe_ZIP" size="255" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="V_String" column="28" />
+                    <Field name="Universe_Lat" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="Double" column="29" />
+                    <Field name="Universe_Lon" source="File: C:\SVN3\spatial_modules\spatial_analytics_for_beginning_users\Data\Stores.xlsx|`Sheet1$`" type="Double" column="30" />
+                    <Field name="Centroid" size="2147483647" source="CreatePoints: x=Lon y=Lat" type="SpatialObj" column="31" />
+                    <Field name="FindNearestRank" source="FindNearest: Rank" type="Int16" column="32" />
+                    <Field name="DriveDistanceMiles" source="FindNearest: Distance Units=DriveDistanceMiles" type="Double" column="34" />
+                    <Field name="OptimizationType" size="64" source="Formula: &quot;Distance&quot;" type="V_WString" column="35" />
+                  </RecordInfo>
+                </MetaInfo>
+              </MultiMetaInfo>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ManualDelayed</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Distance.Distance">
+            <Position x="1014" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OutputDistance value="False" />
+              <ReturnNearest value="False" />
+              <DistToInsideEdge value="False" />
+              <OutputDriveTimeAndDistance value="True" />
+              <SpatialObjSource>CustPoint</SpatialObjSource>
+              <SpatialObjDest>Centroid</SpatialObjDest>
+              <DriveTimeDataSet>Latest:TeleAtlas_US</DriveTimeDataSet>
+              <AllowReverseRoute value="True" />
+              <MaxDriveTime value="30" />
+              <DriveDistanceOnly value="True" />
+              <OutputCardinalDirection value="False" />
+              <OutputDirectionDegrees value="False" />
+              <IsMetric value="False" />
+              <OutputUnits>Miles</OutputUnits>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Uses the reverse routing function</AnnotationText>
+              <DefaultAnnotationText>Uses the reverse routing function</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxDistance" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1326" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="DriveDistanceMiles" selected="False" />
+                <SelectField field="DriveDistanceMiles2" selected="False" />
+                <SelectField field="ShotestDist" selected="True" rename="DriveDistanceMiles" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename fields for union</AnnotationText>
+              <DefaultAnnotationText>Rename fields for union</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1050" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="OptimizationType" size="64" type="V_WString" expression="&quot;DriveTime&quot;" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1518" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\ProgramData\Alteryx\Engine\Engine_29924_b63247a9b2bd42b8bd3dd1a329d6b386_\Engine_28724_aaaa21d413f34b88aa0d70dbe9eb2bc7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Map</DefaultTab>
+                  <Hints>
+                    <Map>
+                      <BaseMap>[No Base Map]</BaseMap>
+                    </Map>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="SpatialObj" selected="True" rename="CustPoint" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Rename the spatial object field.</AnnotationText>
+              <DefaultAnnotationText>Rename the spatial object field.</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="126" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\customers.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>customers.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" />
+                <Field name="Addr_Line1" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" />
+                <Field name="City" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" />
+                <Field name="State" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" />
+                <Field name="Zip" size="254" source="File: C:\virtual\spatial\spatial_analytics_beginner\Data\Customers.csv" type="V_String" />
+                <Field name="CASS_Address2" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" />
+                <Field name="CASS_AddressPlusSuite" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" />
+                <Field name="CASS_CarrierRoute" size="4" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="CASS_City" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" />
+                <Field name="CASS_DeliveryPointCheckDigit" size="1" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="CASS_DeliveryPointCode" size="2" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="CASS_LastLine" size="80" source="CASS: US=2016-05-15 CA=" type="V_String" />
+                <Field name="CASS_Plus4" size="4" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="CASS_Results" size="64" source="CASS: US=2016-05-15 CA=" type="V_String" />
+                <Field name="CASS_State" size="2" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="CASS_ZIP" size="7" source="CASS: US=2016-05-15 CA=" type="String" />
+                <Field name="MatchStatus" size="8" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" />
+                <Field name="Score" scale="1" size="6" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="FixedDecimal" />
+                <Field name="CustPoint" size="2147483647" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="SpatialObj" />
+                <Field name="Lat" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" />
+                <Field name="Lon" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="Double" />
+                <Field name="GeoLevel" size="15" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="String" />
+                <Field name="CensusId" size="16" source="Geocoder: PortfolioExplorer_Latest:TeleAtlas_US" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1122" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="ShotestDist" type="Double" size="8" expression="Min([DriveDistanceMiles], [DriveDistanceMiles2])" />
+                <FormulaField field="OptimizationType" type="V_String" size="64" expression="&quot;Distance&quot;" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Find the shortest route and name the optimization type</AnnotationText>
+              <DefaultAnnotationText>ShotestDist=Min([DriveDistanceMiles], [DriveDistanceMiles2])
+OptimizationType="Distance"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1230" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>ShotestDist</Field>
+                <Operator>&lt;=</Operator>
+                <Operands>
+                  <Operand>1</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Remove any route under a mile</AnnotationText>
+              <DefaultAnnotationText>[ShotestDist] &lt;= 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="7" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Universe" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unmatched" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Matched" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Matched" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Monday_Spatial_Analytics_for_Begginers</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

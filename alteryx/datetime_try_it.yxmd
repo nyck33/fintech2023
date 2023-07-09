@@ -1,0 +1,1653 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="475" y="330" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the string to a date as it appears in the target Text Input tool.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="319" y="186" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="150" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the date to a string as it appears in the target Text Input tool.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="79" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="343" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+              <c>01/01/19 12:34:15</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+              <c>01/02/19 13:01:00</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+              <c>01/03/19 09:12:57</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+              <c>01/04/19 19:32:22</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+              <c>01/05/19 23:59:23</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+              <c>01/06/19 20:10:10</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+              <c>01/07/19 13:11:12</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+              <c>01/08/19 00:01:22</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+              <c>01/09/19 14:45:25</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+              <c>01/10/19 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="319" y="366" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="330" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the date to a string as it appears in the target Text Input tool.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="79" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="343" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+              <c>Tuesday, 01 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+              <c>Wednesday, 02 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+              <c>Thursday, 03 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+              <c>Friday, 04 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+              <c>Saturday, 05 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+              <c>Sunday, 06 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+              <c>Monday, 07 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+              <c>Tuesday, 08 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+              <c>Wednesday, 09 January, 2019</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+              <c>Thursday, 10 January, 2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="319" y="546" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="510" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the date to a string as it appears in the target Text Input tool. (You might need HELP on this one)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="79" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="343" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019-01-01 12:34:15</c>
+              <c>Tuesday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-02 13:01:00</c>
+              <c>Wednesday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-03 09:12:57</c>
+              <c>Thursday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-04 19:32:22</c>
+              <c>Friday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-05 23:59:23</c>
+              <c>Saturday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-06 20:10:10</c>
+              <c>Sunday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-07 13:11:12</c>
+              <c>Monday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-08 00:01:22</c>
+              <c>Tuesday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-09 14:45:25</c>
+              <c>Wednesday, January 2019</c>
+            </r>
+            <r>
+              <c>2019-01-10 15:11:51</c>
+              <c>Thursday, January 2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="739" y="186" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="150" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the string to a date as it appears in the target Text Input tool.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="511" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01 January, 2019</c>
+            </r>
+            <r>
+              <c>02 January, 2019</c>
+            </r>
+            <r>
+              <c>03 January, 2019</c>
+            </r>
+            <r>
+              <c>04 January, 2019</c>
+            </r>
+            <r>
+              <c>05 January, 2019</c>
+            </r>
+            <r>
+              <c>06 January, 2019</c>
+            </r>
+            <r>
+              <c>07 January, 2019</c>
+            </r>
+            <r>
+              <c>08 January, 2019</c>
+            </r>
+            <r>
+              <c>09 January, 2019</c>
+            </r>
+            <r>
+              <c>10 January, 2019</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="763" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01 January, 2019</c>
+              <c>2019-01-01</c>
+            </r>
+            <r>
+              <c>02 January, 2019</c>
+              <c>2019-01-02</c>
+            </r>
+            <r>
+              <c>03 January, 2019</c>
+              <c>2019-01-03</c>
+            </r>
+            <r>
+              <c>04 January, 2019</c>
+              <c>2019-01-04</c>
+            </r>
+            <r>
+              <c>05 January, 2019</c>
+              <c>2019-01-05</c>
+            </r>
+            <r>
+              <c>06 January, 2019</c>
+              <c>2019-01-06</c>
+            </r>
+            <r>
+              <c>07 January, 2019</c>
+              <c>2019-01-07</c>
+            </r>
+            <r>
+              <c>08 January, 2019</c>
+              <c>2019-01-08</c>
+            </r>
+            <r>
+              <c>09 January, 2019</c>
+              <c>2019-01-09</c>
+            </r>
+            <r>
+              <c>10 January, 2019</c>
+              <c>2019-01-10</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="511" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01/01/2019 12:34:15</c>
+            </r>
+            <r>
+              <c>01/02/2019 13:01:00</c>
+            </r>
+            <r>
+              <c>01/03/2019 09:12:57</c>
+            </r>
+            <r>
+              <c>01/04/2019 19:32:22</c>
+            </r>
+            <r>
+              <c>01/05/2019 23:59:23</c>
+            </r>
+            <r>
+              <c>01/06/2019 20:10:10</c>
+            </r>
+            <r>
+              <c>01/07/2019 13:11:12</c>
+            </r>
+            <r>
+              <c>01/08/2019 00:01:22</c>
+            </r>
+            <r>
+              <c>01/09/2019 14:45:25</c>
+            </r>
+            <r>
+              <c>01/10/2019 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="739" y="378" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="751" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01/01/2019 12:34:15</c>
+              <c>2019-01-01 12:34:15</c>
+            </r>
+            <r>
+              <c>01/02/2019 13:01:00</c>
+              <c>2019-01-02 13:01:00</c>
+            </r>
+            <r>
+              <c>01/03/2019 09:12:57</c>
+              <c>2019-01-03 09:12:57</c>
+            </r>
+            <r>
+              <c>01/04/2019 19:32:22</c>
+              <c>2019-01-04 19:32:22</c>
+            </r>
+            <r>
+              <c>01/05/2019 23:59:23</c>
+              <c>2019-01-05 23:59:23</c>
+            </r>
+            <r>
+              <c>01/06/2019 20:10:10</c>
+              <c>2019-01-06 20:10:10</c>
+            </r>
+            <r>
+              <c>01/07/2019 13:11:12</c>
+              <c>2019-01-07 13:11:12</c>
+            </r>
+            <r>
+              <c>01/08/2019 00:01:22</c>
+              <c>2019-01-08 00:01:22</c>
+            </r>
+            <r>
+              <c>01/09/2019 14:45:25</c>
+              <c>2019-01-09 14:45:25</c>
+            </r>
+            <r>
+              <c>01/10/2019 15:11:51</c>
+              <c>2019-01-10 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="510" width="252" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Change the string to a date as it appears in the target Text Input tool. (You might need HELP on this one)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="739" y="546" width="108" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Target</Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="499" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019:01:01---12|34|15</c>
+            </r>
+            <r>
+              <c>2019:01:02---13|01|00</c>
+            </r>
+            <r>
+              <c>2019:01:03---09|12|57</c>
+            </r>
+            <r>
+              <c>2019:01:04---19|32|22</c>
+            </r>
+            <r>
+              <c>2019:01:05---23|59|23</c>
+            </r>
+            <r>
+              <c>2019:01:06---20|10|10</c>
+            </r>
+            <r>
+              <c>2019:01:07---13|11|12</c>
+            </r>
+            <r>
+              <c>2019:01:08---00|01|22</c>
+            </r>
+            <r>
+              <c>2019:01:09---14|45|25</c>
+            </r>
+            <r>
+              <c>2019:01:10---15|11|51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="751" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="DateTime_Out" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2019:01:01---12|34|15</c>
+              <c>2019-01-01 12:34:15</c>
+            </r>
+            <r>
+              <c>2019:01:02---13|01|00</c>
+              <c>2019-01-02 13:01:00</c>
+            </r>
+            <r>
+              <c>2019:01:03---09|12|57</c>
+              <c>2019-01-03 09:12:57</c>
+            </r>
+            <r>
+              <c>2019:01:04---19|32|22</c>
+              <c>2019-01-04 19:32:22</c>
+            </r>
+            <r>
+              <c>2019:01:05---23|59|23</c>
+              <c>2019-01-05 23:59:23</c>
+            </r>
+            <r>
+              <c>2019:01:06---20|10|10</c>
+              <c>2019-01-06 20:10:10</c>
+            </r>
+            <r>
+              <c>2019:01:07---13|11|12</c>
+              <c>2019-01-07 13:11:12</c>
+            </r>
+            <r>
+              <c>2019:01:08---00|01|22</c>
+              <c>2019-01-08 00:01:22</c>
+            </r>
+            <r>
+              <c>2019:01:09---14|45|25</c>
+              <c>2019-01-09 14:45:25</c>
+            </r>
+            <r>
+              <c>2019:01:10---15|11|51</c>
+              <c>2019-01-10 15:11:51</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="55" y="54" width="324" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>DateTime Tool Examples</Text>
+          <Font name="Times New Roman" size="18" style="0" />
+          <TextColor r="13" g="35" b="69" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="882" y="54" width="180" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Click the triangle on the right to see the solutions.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="90" width="792" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the DateTime tool to achieve the target output.</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor r="0" g="130" b="202" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="906" y="101" width="133.0268" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Solutions</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1243" y="342" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the string to a date as it appears in the target Text Input tool.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="931" y="150" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the date to a string as it appears in the target Text Input tool.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="955" y="198.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2019-01-01 12:34:15</c>
+                </r>
+                <r>
+                  <c>2019-01-02 13:01:00</c>
+                </r>
+                <r>
+                  <c>2019-01-03 09:12:57</c>
+                </r>
+                <r>
+                  <c>2019-01-04 19:32:22</c>
+                </r>
+                <r>
+                  <c>2019-01-05 23:59:23</c>
+                </r>
+                <r>
+                  <c>2019-01-06 20:10:10</c>
+                </r>
+                <r>
+                  <c>2019-01-07 13:11:12</c>
+                </r>
+                <r>
+                  <c>2019-01-08 00:01:22</c>
+                </r>
+                <r>
+                  <c>2019-01-09 14:45:25</c>
+                </r>
+                <r>
+                  <c>2019-01-10 15:11:51</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1075" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="True" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>MM/dd/yy hh:mm:ss</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date To:
+MM/dd/yy hh:mm:ss</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="931" y="330" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the date to a string as it appears in the target Text Input tool.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="955" y="378" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2019-01-01 12:34:15</c>
+                </r>
+                <r>
+                  <c>2019-01-02 13:01:00</c>
+                </r>
+                <r>
+                  <c>2019-01-03 09:12:57</c>
+                </r>
+                <r>
+                  <c>2019-01-04 19:32:22</c>
+                </r>
+                <r>
+                  <c>2019-01-05 23:59:23</c>
+                </r>
+                <r>
+                  <c>2019-01-06 20:10:10</c>
+                </r>
+                <r>
+                  <c>2019-01-07 13:11:12</c>
+                </r>
+                <r>
+                  <c>2019-01-08 00:01:22</c>
+                </r>
+                <r>
+                  <c>2019-01-09 14:45:25</c>
+                </r>
+                <r>
+                  <c>2019-01-10 15:11:51</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1075" y="378.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="True" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>day, dd Month, yyyy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date To:
+day, dd Month, yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="931" y="510" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the date to a string as it appears in the target Text Input tool. (You might need HELP on this one)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="955" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2019-01-01 12:34:15</c>
+                </r>
+                <r>
+                  <c>2019-01-02 13:01:00</c>
+                </r>
+                <r>
+                  <c>2019-01-03 09:12:57</c>
+                </r>
+                <r>
+                  <c>2019-01-04 19:32:22</c>
+                </r>
+                <r>
+                  <c>2019-01-05 23:59:23</c>
+                </r>
+                <r>
+                  <c>2019-01-06 20:10:10</c>
+                </r>
+                <r>
+                  <c>2019-01-07 13:11:12</c>
+                </r>
+                <r>
+                  <c>2019-01-08 00:01:22</c>
+                </r>
+                <r>
+                  <c>2019-01-09 14:45:25</c>
+                </r>
+                <r>
+                  <c>2019-01-10 15:11:51</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1075" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="True" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>%A, %B %Y</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date To:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1243" y="150" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the string to a date as it appears in the target Text Input tool.</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1387" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>dd Month, yyyy</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+dd Month, yyyy</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1279" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>01 January, 2019</c>
+                </r>
+                <r>
+                  <c>02 January, 2019</c>
+                </r>
+                <r>
+                  <c>03 January, 2019</c>
+                </r>
+                <r>
+                  <c>04 January, 2019</c>
+                </r>
+                <r>
+                  <c>05 January, 2019</c>
+                </r>
+                <r>
+                  <c>06 January, 2019</c>
+                </r>
+                <r>
+                  <c>07 January, 2019</c>
+                </r>
+                <r>
+                  <c>08 January, 2019</c>
+                </r>
+                <r>
+                  <c>09 January, 2019</c>
+                </r>
+                <r>
+                  <c>10 January, 2019</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1279" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>01/01/2019 12:34:15</c>
+                </r>
+                <r>
+                  <c>01/02/2019 13:01:00</c>
+                </r>
+                <r>
+                  <c>01/03/2019 09:12:57</c>
+                </r>
+                <r>
+                  <c>01/04/2019 19:32:22</c>
+                </r>
+                <r>
+                  <c>01/05/2019 23:59:23</c>
+                </r>
+                <r>
+                  <c>01/06/2019 20:10:10</c>
+                </r>
+                <r>
+                  <c>01/07/2019 13:11:12</c>
+                </r>
+                <r>
+                  <c>01/08/2019 00:01:22</c>
+                </r>
+                <r>
+                  <c>01/09/2019 14:45:25</c>
+                </r>
+                <r>
+                  <c>01/10/2019 15:11:51</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1387" y="402" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>MM/dd/yyyy hh:mm:ss</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1243" y="510" width="252" height="156" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Change the string to a date as it appears in the target Text Input tool. (You might need HELP on this one)</Text>
+              <Font name="Arial" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="1387" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>Date</InputFieldName>
+              <Format>%Y:%m:%d---%H|%M|%S</Format>
+              <OutputFieldName>DateTime_Out</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert Date From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="1267" y="570" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Date" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2019:01:01---12|34|15</c>
+                </r>
+                <r>
+                  <c>2019:01:02---13|01|00</c>
+                </r>
+                <r>
+                  <c>2019:01:03---09|12|57</c>
+                </r>
+                <r>
+                  <c>2019:01:04---19|32|22</c>
+                </r>
+                <r>
+                  <c>2019:01:05---23|59|23</c>
+                </r>
+                <r>
+                  <c>2019:01:06---20|10|10</c>
+                </r>
+                <r>
+                  <c>2019:01:07---13|11|12</c>
+                </r>
+                <r>
+                  <c>2019:01:08---00|01|22</c>
+                </r>
+                <r>
+                  <c>2019:01:09---14|45|25</c>
+                </r>
+                <r>
+                  <c>2019:01:10---15|11|51</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="701" width="674" height="110" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#314c4a" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="79" y="750" width="624" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>datetime_try_it</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

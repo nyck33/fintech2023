@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="786" y="438" width="228" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="438" width="228" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="960" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[A research group tracked movements of the world’s biggest fish, the Whale Shark, to gain insights into where they go to breed. The data set provides information of daily movement of whale sharks tagged off Ningaloo Reef, a world heritage site located in the north west coastal region of Western Australia.
+
+In this challenge you have to:
+- Plot the area (polygon) to show where the group of whale sharks were traveling 
+- Determine which whale shark traveled the farthest and what was the distance
+- Plot the line to show the distance traveled by the shark that traveled the farthest
+
+
+Source: https://zoatrack.org/projects/477/search
+
+https://zoatrack.wordpress.com/2017/08/18/zoatrack-hosts-ecocean-whale-shark-race/
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="11.25" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">ECOCEAN Whale Shark Race Around the World 2017.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ECOCEAN Whale Shark Race Around the World 2017.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="DATE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="ARGOSCLASS" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Blake\AppData\Local\Temp\Engine_6876_2ef5a0e9676e4508bbb24f42a9f57cce_\Engine_13348_60cd5ad86b98489f91ffda788437a0a5_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Blake\AppData\Local\Temp\Engine_6876_2ef5a0e9676e4508bbb24f42a9f57cce_\Engine_13348_6829a59188234201a8bd7cd85106d644_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Alteryx_Satellite</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="810" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Output1.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output1.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Centroid" type="SpatialObj" />
+            <Field name="LengthMi" source="SpatialInfo: LengthMi Source=SpatialObj_Built" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="810" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Output 2.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output 2.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=ConvexHull Source=Centroid" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Blake\AppData\Local\Temp\Engine_6876_2ef5a0e9676e4508bbb24f42a9f57cce_\Engine_13348_81215c161cff40fc892f435600048d74_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Alteryx_Satellite</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="324" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="834" y="78" width="180" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Challenge # 311</Text>
+          <Font name="Microsoft Sans Serif" size="16.2" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="246" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="LONGITUDE" fieldY="LATITUDE" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="DATE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="ARGOSCLASS" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=LONGITUDE y=LATITUDE" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="714" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Blake\AppData\Local\Temp\Engine_6876_2ef5a0e9676e4508bbb24f42a9f57cce_\Engine_13348_5e8c8e046ee64987a8a46914a73187a5_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Alteryx_Satellite</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="342" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" />
+          <GroupField field="ANIMALID" />
+          <BuildType>SequencePolyline</BuildType>
+          <SequenceField field="" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Centroid" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ANIMALID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="426" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObj_Built" />
+          <SelectedItems>
+            <Item name="LengthMi" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Centroid" type="SpatialObj" />
+            <Field name="LengthMi" source="SpatialInfo: LengthMi Source=SpatialObj_Built" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="ANIMALID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Blake\AppData\Local\Temp\Engine_6876_2ef5a0e9676e4508bbb24f42a9f57cce_\Engine_13348_2024ca297670405782b359ff7a4c1861_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Alteryx_Satellite</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="390" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" />
+          <GroupField field="" />
+          <BuildType>ConvexHull</BuildType>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=ConvexHull Source=Centroid" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="522" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="LengthMi" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>LengthMi - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Centroid" type="SpatialObj" />
+            <Field name="LengthMi" source="SpatialInfo: LengthMi Source=SpatialObj_Built" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="678" width="156" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Black" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="618" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1</N>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ANIMALID" size="254" source="File: C:\Users\tcarrico\alteryx.com\GRP_Prometheus - General\Learning Engagement\Thalita Weekly Challenge\WC2\ECOCEAN Whale Shark Race Around the World 2017.csv" type="V_String" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Centroid" type="SpatialObj" />
+            <Field name="LengthMi" source="SpatialInfo: LengthMi Source=SpatialObj_Built" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="116" y="1004" width="656" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx Educational Asset - Terms and Conditions</Caption>
+          <Style TextColor="#ffffff" FillColor="#0d2345" BorderColor="#ffffff" Transparency="1" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="117">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="126" y="1038" width="636" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.”</Text>
+              <Font name="Times New Roman" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Weekly Challenge 311_ABDC_BH</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="68529295-8efd-4ca1-b82e-b8de250bc93a" />
+      <Telemetry>
+        <PreviousWorkflowId value="7cfb350a-46c7-4181-af77-da5c5bda0372" />
+        <OriginWorkflowId value="7cfb350a-46c7-4181-af77-da5c5bda0372" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

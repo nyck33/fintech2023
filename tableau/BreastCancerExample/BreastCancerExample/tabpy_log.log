@@ -1,0 +1,108 @@
+2023-06-12,17:31:20 [INFO] (app.py:app:299): Parsing config file /home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/app/../common/default.conf
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter port set to "9004" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter server_version set to "2.8.0" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter evaluate_enabled set to "True" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter evaluate_timeout set to "30" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter upload_dir set to "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tmp/query_objects" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter transfer_protocol set to "http" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:267): Parameter certificate_file is not set
+2023-06-12,17:31:20 [DEBUG] (app.py:app:267): Parameter key_file is not set
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter state_file_path set to "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter static_path set to "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/static" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:267): Parameter TABPY_PWD_FILE is not set
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter log_request_context set to "false" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter max_request_size_in_mb set to "100" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter gzip_enabled set to "True" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter arrow_enabled set to "False" from default value
+2023-06-12,17:31:20 [DEBUG] (app.py:app:260): Parameter arrowflight_port set to "13622" from default value
+2023-06-12,17:31:20 [INFO] (app.py:app:362): Setting max request size to 104857600 bytes
+2023-06-12,17:31:20 [INFO] (app.py:app:503): Loading state from state file /home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/state.ini
+2023-06-12,17:31:20 [DEBUG] (app.py:app:378): Static pages folder set to "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/static"
+2023-06-12,17:31:20 [INFO] (app.py:app:397): Password file is not specified: Authentication is not enabled
+2023-06-12,17:31:20 [INFO] (app.py:app:412): Call context logging is disabled
+2023-06-12,17:31:20 [INFO] (app.py:app:180): Initializing TabPy...
+2023-06-12,17:31:20 [DEBUG] (selector_events.py:selector_events:54): Using selector: EpollSelector
+2023-06-12,17:31:20 [INFO] (callbacks.py:callbacks:43): Initializing TabPy Server...
+2023-06-12,17:31:20 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2023-06-12,17:31:20 [DEBUG] (state.py:state:635): Returning value '[]'
+2023-06-12,17:31:20 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2023-06-12,17:31:20 [INFO] (app.py:app:184): Done initializing TabPy.
+2023-06-12,17:31:20 [INFO] (callbacks.py:callbacks:64): Initializing models...
+2023-06-12,17:31:20 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2023-06-12,17:31:20 [DEBUG] (state.py:state:635): Returning value '[]'
+2023-06-12,17:31:20 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2023-06-12,17:31:20 [INFO] (app.py:app:150): Web service listening on port 9004
+2023-06-12,17:31:32 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2023-06-12,17:31:32 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2023-06-12,17:31:32 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2023-06-12,17:31:32 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2023-06-12,17:31:32 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2023-06-12,17:31:32 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2023-06-12,17:31:32 [DEBUG] (state.py:state:511): Collecting Access-Control-Allow-Origin from state file ...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Description' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Creation Time' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value '0'
+2023-06-12,17:31:32 [DEBUG] (state.py:state:613): Loading option 'Name' from section [Service Info]...
+2023-06-12,17:31:32 [DEBUG] (state.py:state:635): Returning value 'TabPy Server'
+2023-06-12,17:31:32 [INFO] (web.py:web:2239): 200 GET /info (127.0.0.1) 21.18ms
+2023-06-12,17:31:33 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2023-06-12,17:31:33 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2023-06-12,17:31:33 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2023-06-12,17:31:33 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2023-06-12,17:31:33 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2023-06-12,17:31:33 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2023-06-12,17:31:33 [DEBUG] (state.py:state:511): Collecting Access-Control-Allow-Origin from state file ...
+2023-06-12,17:31:33 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2023-06-12,17:31:33 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:33 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2023-06-12,17:31:33 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:33 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2023-06-12,17:31:33 [DEBUG] (state.py:state:635): Returning value ''
+2023-06-12,17:31:33 [DEBUG] (base_handler.py:base_handler:115): Processing POST request...
+2023-06-12,17:31:33 [INFO] (base_handler.py:base_handler:115): function to evaluate=def _user_script(tabpy, _arg1, _arg2, _arg3, _arg4):
+ import numpy as np
+ from sklearn.cluster import DBSCAN
+ X=np.column_stack([np.radians(_arg1),np.radians(_arg2)])
+ db = DBSCAN(eps=_arg3[1], min_samples=_arg4[1], metric='haversine').fit(X)
+ return np.where(db.labels_ == np.array(-1), 'No', 'Yes').tolist()
+
+2023-06-12,17:31:33 [ERROR] (base_handler.py:base_handler:115): Traceback (most recent call last):
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/handlers/evaluation_plane_handler.py", line 178, in post
+    yield self._post_impl()
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/handlers/evaluation_plane_handler.py", line 118, in _post_impl
+    result = yield self._call_subprocess(function_to_evaluate, arguments)
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tornado/gen.py", line 769, in run
+    yielded = self.gen.throw(*exc_info)  # type: ignore
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tabpy/tabpy_server/handlers/evaluation_plane_handler.py", line 212, in _call_subprocess
+    ret = yield gen.with_timeout(timedelta(seconds=self.eval_timeout), future)
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/site-packages/tornado/gen.py", line 762, in run
+    value = future.result()
+  File "/home/nobu/miniconda3/envs/tableau/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "<string>", line 5, in _user_script
+  File "/home/nobu/.local/lib/python3.10/site-packages/sklearn/cluster/_dbscan.py", line 366, in fit
+    self._validate_params()
+  File "/home/nobu/.local/lib/python3.10/site-packages/sklearn/base.py", line 581, in _validate_params
+    validate_parameter_constraints(
+  File "/home/nobu/.local/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 97, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'min_samples' parameter of DBSCAN must be an int in the range [1, inf). Got 49.62222222222222 instead.
+
+2023-06-12,17:31:33 [ERROR] (base_handler.py:base_handler:115): Responding with status=500, message="Error processing script", info="InvalidParameterError : The 'min_samples' parameter of DBSCAN must be an int in the range [1, inf). Got 49.62222222222222 instead."
+2023-06-12,17:31:33 [ERROR] (web.py:web:2239): 500 POST /evaluate (127.0.0.1) 381.21ms
+2023-06-12,17:36:26 [CRITICAL] (app.py:app:172): Exiting on signal 2...
+2023-06-12,17:36:26 [INFO] (app.py:app:178): Shutting down TabPy...
+2023-06-12,17:36:26 [INFO] (app.py:app:178): Shutting down TabPy...
